@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "name": "Bachelor degree in Japanese and English languages",
+    "category": "Education",
+    "placeName": "Université de Grenoble (Stendhal)",
+    "country": "France",
+    "startDate": "2010-09",
+    "endDate": "2013-07",
+    "description":["Japanese (Kanji, Grammar, History, Language practise)",
+      "English (British and American history, Grammar, Language practise)",
+     "Economy, Accounting, Law, International law",
+     "Introduction to computer Science (Javascript, Adobe Flash Player, Microsoft Access, CMS)"],
+    "skills": [
+      "english",
+      "japanese",
+      "law",
+      "economics"
+    ]
+  }
+  
+  ]

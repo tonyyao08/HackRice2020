@@ -1,19 +1,19 @@
 document.addEventListener("DOMContentLoaded", function () {
   drawChart(
     "#timelineChart",
-    "https://raw.githubusercontent.com/tonyyao08/HackRice2020/master/eventsdata.json",
+    "https://raw.githubusercontent.com/pearl6527/something-timelines/master/TIMELINES/assets/locations-data.json",
     "Chart"
   );
-  drawChart(
-    "#timelineChart1",
-    "https://raw.githubusercontent.com/pearl6527/something-timelines/master/TIMELINES/assets/somedata.json",
-    "Chart1"
-  );
-  drawChart(
-    "#timelineChart2",
-    "https://raw.githubusercontent.com/pearl6527/something-timelines/master/TIMELINES/assets/moredata.json",
-    "Chart2"
-  );
+  // drawChart(
+  //   "#timelineChart1",
+  //   "https://raw.githubusercontent.com/pearl6527/something-timelines/master/TIMELINES/assets/somedata.json",
+  //   "Chart1"
+  // );
+  // drawChart(
+  //   "#timelineChart2",
+  //   "https://raw.githubusercontent.com/pearl6527/something-timelines/master/TIMELINES/assets/moredata.json",
+  //   "Chart2"
+  // );
 });
 
 function drawChart(selector, file_path, chart_id) {
@@ -45,8 +45,8 @@ function drawChart(selector, file_path, chart_id) {
     
     // Convert to UNIX timestamp
     function convertToTimeStamp(date) {
-      let parts = date.match(/(\d{4})-(\d{2})/);
-      return new Date(parts[1] + "-" + parts[2] + "-01").getTime();
+      let parts = date.match(/(\d{4})-(\d{2})-(\d{2})/);
+      return new Date(parts[1] + "-" + parts[2] + "-" + parts[3]).getTime();
     }
 
     let scaleLine = d3
@@ -73,17 +73,15 @@ function drawChart(selector, file_path, chart_id) {
     group
       .append("circle")
       .attr("cx", function (data) {
-        return scaleLine(convertToTimeStamp(data.startDate));
+        return scaleLine(convertToTimeStamp(data.date));
       })
       .attr("cy", 100)
       .attr("r", function (data) {
-        return scaleCircle(
-          convertToTimeStamp(data.endDate) - convertToTimeStamp(data.startDate)
-        );
+        return Math.random()*100 + 100;
       })
       .attr("fill-opacity", 0.5)
       .attr("class", function (data) {
-        return "circle-category circle-" + data.category.toLowerCase();
+        return "circle-category circle-" + data.state.toLowerCase();
       })
       .attr("id", function (data) {
         return "circle-" + data.id;
@@ -91,12 +89,7 @@ function drawChart(selector, file_path, chart_id) {
       // When hover a circle
       .on("mouseover", function (d, i) {
         d3.select(this).attr("r", function (data) {
-          return (
-            scaleCircle(
-              convertToTimeStamp(data.endDate) -
-                convertToTimeStamp(data.startDate)
-            ) + 20
-          );
+          return Math.random()*100 + 100 + 20;
         });
         d3.select(this).classed("circle-hovered", true);
         d3.select(this.parentNode).selectAll("text").style("opacity", 1);
@@ -139,10 +132,7 @@ function drawChart(selector, file_path, chart_id) {
       // When un-hover a circle
       .on("mouseout", function (d, i) {
         d3.select(this).attr("r", function (data) {
-          return scaleCircle(
-            convertToTimeStamp(data.endDate) -
-              convertToTimeStamp(data.startDate)
-          );
+          return Math.random()*100 + 100;
         });
         d3.select(this).classed("circle-hovered", false);
         d3.select(this.parentNode).selectAll("text").style("opacity", 0);
@@ -158,12 +148,12 @@ function drawChart(selector, file_path, chart_id) {
         let elementWitdh = this.getBoundingClientRect().width;
         // Avoid overflow
         if (
-          scaleLine(convertToTimeStamp(data.startDate)) + elementWitdh >=
+          scaleLine(convertToTimeStamp(data.date)) + elementWitdh >=
           getLineVal("max")
         ) {
-          return scaleLine(convertToTimeStamp(data.startDate)) - elementWitdh;
+          return scaleLine(convertToTimeStamp(data.date)) - elementWitdh;
         } else {
-          return scaleLine(convertToTimeStamp(data.startDate));
+          return scaleLine(convertToTimeStamp(data.date));
         }
       })
       .attr("y", 150)
@@ -173,10 +163,10 @@ function drawChart(selector, file_path, chart_id) {
       .append("text")
       .text(function (data) {
         // Get only YYYY-MM
-        if (data.startDate.length > 7) {
-          return data.startDate.slice(0, 7);
+        if (data.date.length > 7) {
+          return data.date.slice(0, 7);
         } else {
-          return data.startDate;
+          return data.date;
         }
       })
       .attr("x", function (data) {
@@ -186,12 +176,12 @@ function drawChart(selector, file_path, chart_id) {
           .querySelector("text.text-position")
           .getBoundingClientRect().width;
         if (
-          scaleLine(convertToTimeStamp(data.startDate)) + positionWidth >=
+          scaleLine(convertToTimeStamp(data.date)) + positionWidth >=
           getLineVal("max")
         ) {
-          return scaleLine(convertToTimeStamp(data.startDate)) - elementWitdh;
+          return scaleLine(convertToTimeStamp(data.date)) - elementWitdh;
         } else {
-          return scaleLine(convertToTimeStamp(data.startDate));
+          return scaleLine(convertToTimeStamp(data.date));
         }
       })
       .attr("y", 130)
@@ -203,7 +193,7 @@ function drawChart(selector, file_path, chart_id) {
         .select(selector)
         .append("div")
         .classed("details", true)
-        .classed("details-" + d.category.toLowerCase(), true)
+        .classed("details-" + d.state.toLowerCase(), true)
         .attr("id", "details-" + d.id);
       details
         .append("i")
@@ -214,7 +204,7 @@ function drawChart(selector, file_path, chart_id) {
         .classed("title", true)
         .append("span")
         .classed("date text-date date-title", true)
-        .text(d.startDate + "-" + d.endDate);
+        .text(d.date);
       details
         .select(" .title")
         .append("span")
@@ -223,7 +213,7 @@ function drawChart(selector, file_path, chart_id) {
       details
         .append("div")
         .classed("place-name text-place hovered", true)
-        .text(d.placeName);
+        .text(d.city);
       details
         .append("div")
         .attr("class", "text-desc")
