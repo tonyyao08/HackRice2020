@@ -1,5 +1,54 @@
-<html>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/fullpage.js/dist/fullpage.min.css">
+    <link href="main.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400|Thasadith" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="timeline.css">
+    <!-- Libs -->
+		<script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <!-- End libs -->
+		<script type="text/javascript" src="timeline.js"></script>
+</head>
+<div id="app">
+    <full-page :options="options" id="fullpage" ref="fullpage">
+        <div class="section">
+            <h2 id= "mainHeader">black lives matter</h2>
+            <div class='tline'>
+                <h2>Timeline - ???</h2>
+                <p>here is some text</p>
+                <div id='timelineChart' class='tline'></div>
+                
+            </div>
+            
+        </div>
+        <div class="section">
+            <div class="slide">
+                <h3>Slide 2.1</h3>
+                
+            </div>
+            <div class="slide">
+                <h3>Slide 2.2</h3>
+            </div>
+            <div class="slide">
+                <h3>Slide 2.3</h3>
+            </div>
+        </div>
+        <div class="section">
+            <h3>Section 3</h3>
+        </div>
+    </full-page>
 
+    <a class="view-github" href="https://github.com/alvarotrigo/vue-fullpage.js" target="_blank">View on Github</a>
+    
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.min.js"></script>
+<script src="https://unpkg.com/vue-fullpage.js/dist/vue-fullpage.js"></script>
+<script src="main.js"></script>
 </html>
+
