@@ -1,6 +1,7 @@
-// const data = require('./all-locations-v3.json');
-// // console.log(data);
+// const data = require('./location-data.json');
+// console.log(data);
 // subdata=data.data;
+// console.log(subdata);
 // var count = 0;
 // var keys = [];
 // var dateKeyArray = [];
@@ -19,7 +20,7 @@
 //     dateKeyArray.shift();
 // }
 
-// // console.log(dateKeyArray);
+// console.log(dateKeyArray);
 
 // var startingIndex=0;
 // var incrementingIndex=1;

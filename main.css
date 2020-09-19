@@ -146,33 +146,35 @@ h3{
     display: block;
 }
 #firstpage{
-    background: linear-gradient( rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76) ),url("https://s3-alpha-sig.figma.com/img/a419/3fa6/a2281e0e363ecd22f8cf1e24fe766311?Expires=1601251200&Signature=FxedvU8UScvwUm5FEWDMj5A6zfOVsavgyZCSpxVFtjw3ymtn-u29aUfOh6dHniwqdKRdBXo9i1i3P97aKrqhTrDMCq3qU5owqk3KLrf79Eo7r~qyM4RYMNMGvOUMJ4bnbQqdBX4CkBZz7fKcVmJICwxyQQa1BiviJu9yPN8BgDd4r9tskbomroMw0m5OfXW3fbsHuFp41QKK~60-qYI2RJfHNp3lKtIFBNJdke9GhSvxuDXW~CSCdACbqPKPd5YgaiH5RWOFo6hqR0m2Bee~YKyXyLYuYLSa0KxARQv09Q~0aBmmoIHGLT7USssvEdCue~sqT3C-9BpS2A4IkHxMhw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
-  
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    background: linear-gradient( rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76) ),url("https://i.ibb.co/xh7nRTJ/1.png");
+    /* width:100%;
+    height:100%; */
 }
 #secondpage{
-    background: linear-gradient( rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76) ),url("https://s3-alpha-sig.figma.com/img/de5e/fa55/9307eb00fb7c5a545d7871ca3569974d?Expires=1601251200&Signature=eGcfYujKnK5feUALrouDvp8kyDj0H22wtQKoIC3b~fdK0RxqoLDroxVVkG1I8Hz-2bAdJjK8dsr5cZPLc6m0GxQDtDbnQgSL5VptDFdsASKyuR4YQXqvA92KCa-2PKtBpyabJmV4KxIKq-b-O55IczNVOTP3efIFVByRAAX6omeIggtJR7GUl1KBcrripHJ89kzDYHSs3ylYvYH5I34HeakIFTkhjOLUfZ2gjdwPONBpBzRx3zU~RldPR6Rk7kB9IyZ3bqsDNgdDgmOGHByveDM3pLrXObNcfc7~eQiXIGIkHwnKri2Pl7pxLAJW8P3o8AlVkg38Km7q5T4ltIpE6A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+    background: linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.95) ),url("https://i.ibb.co/WFXgT2G/2.png");
 }
 #thirdpage{
-    background: linear-gradient( rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76) ),url("https://s3-alpha-sig.figma.com/img/de5e/fa55/9307eb00fb7c5a545d7871ca3569974d?Expires=1601251200&Signature=eGcfYujKnK5feUALrouDvp8kyDj0H22wtQKoIC3b~fdK0RxqoLDroxVVkG1I8Hz-2bAdJjK8dsr5cZPLc6m0GxQDtDbnQgSL5VptDFdsASKyuR4YQXqvA92KCa-2PKtBpyabJmV4KxIKq-b-O55IczNVOTP3efIFVByRAAX6omeIggtJR7GUl1KBcrripHJ89kzDYHSs3ylYvYH5I34HeakIFTkhjOLUfZ2gjdwPONBpBzRx3zU~RldPR6Rk7kB9IyZ3bqsDNgdDgmOGHByveDM3pLrXObNcfc7~eQiXIGIkHwnKri2Pl7pxLAJW8P3o8AlVkg38Km7q5T4ltIpE6A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+    background: linear-gradient( rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76) ),url("https://i.ibb.co/G0DDDvy/4.png");
 }
 #fourthpage{
-    background: linear-gradient( rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76) ),url("https://s3-alpha-sig.figma.com/img/9c2d/66d3/a10a2bcd53ef5870b94f7017b2b9c3c6?Expires=1601251200&Signature=WsBGg10XNGZMod1s4nomPhMK2A4Ie9tU~vWRqhXIUakDakY8ldHiVNfzGGTS1sbwAmZM-RDYkUN~mL9TwOihZVnmwzhJd5L2Kzehq3Em0bRcpi~VrUbnPUHaliT2J0mXhMMo9LNJxIOgnwonIywSFvsRKS~cJHsmBLbgVsY1sKZSePy0mY2S-9zHyyHP1WmZyo56cxQWbF-aXxXHH6PWsmwO12A8q9kVMbO9~EMTOxfuesNr5i0neCF5XM3eFWA-u8NRCSa68QH9v2SNIaGg0LCdH2cp8BLnFOR3DsWzAk8lTIVmJiMW0qIimTGY8q3WlkDWqPUrDTVUt5dpQ0xgqA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+    background: linear-gradient( rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76) ),url("https://i.ibb.co/kHD5Cvz/5.png");
 }
 #fourthpagelinks{
     padding-top: 200px;
     padding-bottom: 200px;
+}
+#firsttimeline{
+    text-align: center;
 }
 
 a:link {
     color: white;
     background-color: transparent;
     text-decoration: none;
-  }
-  a:visited {
-    color: grey;
-    background-color: transparent;
-    text-decoration: none;
-  }
+  }  
   a:hover {
     color: grey;
     background-color: transparent;
@@ -183,7 +185,11 @@ a:link {
     background-color: transparent;
     text-decoration: underline;
   }
-  
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
   
 #content1{
     color: white;
@@ -210,14 +216,14 @@ a:link {
 }
 .arrowDown {
     border: solid white;
-    border-width: 0px 30px 30px 0px;
+    border-width: 0px 15px 15px 0px;
     display: inline-block;
-    padding: 60px;
+    padding: 30px;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
 #firstpagearrow{
-    padding-top:200px;
+    padding-top:300px;
 }
   
 
@@ -275,7 +281,4 @@ a:link {
     display: block;
     color: #fff;
 }
-#mainHeader{
-    padding-top: 200px;
-    padding-left: 200px;
-}
+

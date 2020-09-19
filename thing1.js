@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 "use strict";
 
 alert("JavaScript here.");
@@ -155,4 +156,15 @@ let addTwoThings = (a, b) => {  // the curly brace opens a multiline function
   return result; // if we use curly braces, then we need an explicit "return"
 };
 
+=======
+const Twilio = require("twilio");
+
+const client = new Twilio("AC937b0681cf025f8b5e7568bcb18ebe95", "bfe350882f38d72a3ac4afc74c0f7b3e");
+
+client.messages.list()
+    .then(messages => console.log(`The most recent message is ${messages[0].body}`))
+    .catch(err => console.error(err));
+
+console.log('Gathering your message log...');
+>>>>>>> Stashed changes
 

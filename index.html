@@ -1,48 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Black Lives Matter</title>
-    <link href="style.css" rel="stylesheet"/>
-    <script src="https://unpkg.com/vue"></script>
-
-<!--testing some random timeline-->
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
-      google.charts.load('current', {'packages':['timeline']});
-      google.charts.setOnLoadCallback(drawChart);
-      function drawChart() {
-        var container = document.getElementById('timeline');
-        var chart = new google.visualization.Timeline(container);
-        var dataTable = new google.visualization.DataTable();
-
-        dataTable.addColumn({ type: 'string', id: 'President' });
-        dataTable.addColumn({ type: 'date', id: 'Start' });
-        dataTable.addColumn({ type: 'date', id: 'End' });
-        dataTable.addRows([
-          [ 'Washington', new Date(1789, 3, 30), new Date(1797, 2, 4) ],
-          [ 'Adams',      new Date(1797, 2, 4),  new Date(1801, 2, 4) ],
-          [ 'Jefferson',  new Date(1801, 2, 4),  new Date(1809, 2, 4) ]]);
-
-        chart.draw(dataTable);
-      }
-    </script>
-
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/fullpage.js/dist/fullpage.min.css">
+    <link href="index.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400|Thasadith" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="timeline.css">
+    <!-- Libs -->
+	  <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <!-- End libs -->
+	<script type="text/javascript" src="timeline.js"></script>
 </head>
-<body>
-    <div id="timeline" style="height: 180px;"></div>
-    <div id="hrx_starter">
-        <h1><b>Black Lives Matter</b></h1>
+<div id="app">
+    <full-page :options="options" id="fullpage" ref="fullpage">
+        <div class="section">
+            <h2 id= "mainHeader">Black Lives Matter</h2>
+            
+        </div>
+        <div class="section">
+            <div class="slide">
+                <h3 id="black-font">Slide 2.1</h3>
+                <div class='tline'>
+                    <h2>Timeline - ??d?11111</h2>
+                    <p>here is some text</p>
+                    <div id='timelineChart' class='tline'></div>
+                    
+                </div>
+            </div>
+            <div class="slide">
+                <h3>Slide 2.2</h3>
+                <div class='tline'>
+                    <h2>Timeline - ??d?2222</h2>
+                    <p>here is some text</p>
+                    <div id='timelineChart1' class='tline'></div>
+                    
+                </div>
+            </div>
+            <div class="slide">
+                <h3>Slide 2.3</h3>
+                <div class='tline'>
+                    <h2>Timeline - ??d?3333</h2>
+                    <p>here is some text</p>
+                    <div id='timelineChart2' class='tline'></div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h3>Section 3</h3>
+        </div>
+    </full-page>
 
-        <p>The Black Lives Matter movement </p>
-        <h2>What is your name?</h2>
+    
+    
+</div>
 
-        <input v-model="username" type="text">
-        <button v-on:click="greet">Greetings!</button>
 
-        <h2>{{ greeting }}</h2>
-    </div>
-    <script src="app.js"></script>
-</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.min.js"></script>
+<script src="https://unpkg.com/vue-fullpage.js/dist/vue-fullpage.js"></script>
+<script src="index.js"></script>
 </html>
+
