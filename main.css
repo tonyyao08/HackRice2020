@@ -75,6 +75,9 @@ body {
     display: inline-block;
     margin: 1.25em 0.3em;
 }
+#black-font {
+    color: #000;
+}
 .section-1-button{
     padding: 0.93em 1.87em;
     background: #35495e;

@@ -6,7 +6,11 @@ new Vue({
                 afterLoad: this.afterLoad,
                 navigation: false,
                 anchors: ['page1', 'page2', 'page3'],
+<<<<<<< HEAD
                 sectionsColor: ['#FFFFFF', '#FFFFFF', '	#FFFFFF', '#fec401', '#1bcee6', '#ee1a59', '#2c3e4f', '#ba5be9', '#b4b8ab']
+=======
+                sectionsColor: ['#41b883', '#FFFFFF', '#0798ec', '#fec401', '#1bcee6', '#ee1a59', '#2c3e4f', '#ba5be9', '#b4b8ab']
+>>>>>>> 7486f3d4b1b692ab06f13c3e0091f2a5e47650ae
             },
         }
     },
