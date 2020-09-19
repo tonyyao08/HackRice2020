@@ -200,7 +200,6 @@ h3{
     color: #fff;
 }
 #mainHeader{
-    position: fixed;
-    top: 100px;
-    left:200px
+    padding-top: 200px;
+    padding-left: 200px;
 }
