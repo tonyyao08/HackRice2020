@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Main </title>
+        <link href="main.css" rel="stylesheet"/>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <link href="timeline.css" rel="stylesheet">
+
+        <link href="dist/css/timeline.min.css" rel="stylesheet">
+        <script src="dist/js/timeline.min.js"></script>
+    </head>
+    <body>
+        <div id = "vue-app">
+            <h1>{{ name }}</h1>
+            <p> {{ greet('afternoon') }} </p>
+            <p> My age is {{ age }} </p>
+            <input type= "text" v-bind:value="name"/>
+            <button v-on:click="add"> Click me to increment age </button>
+            <div id="canvas"></div>
+        </div>
+        
+
+        <div class="timeline">
+            <div class="timeline__wrap">
+              <div class="timeline__items">
+                <div class="timeline__item">
+                  <div class="timeline__content">
+                    <h2>2018.3</h2>
+                    <p>Story 1</p>
+                  </div>
+                </div>
+                <div class="timeline__item">
+                  <div class="timeline__content">
+                    <h2>2017.5</h2>
+                    <p>Story 2</p>
+                  </div>
+                </div>
+                <div class="timeline__item">
+                  <div class="timeline__content">
+                    <h2>2016</h2>
+                    <p>Story 3</p>
+                  </div>
+                </div>
+                ...
+              </div>
+            </div>
+          </div>
+          
+        <script src="main.js"></script>
+    </body>
+    
+
+</html>
