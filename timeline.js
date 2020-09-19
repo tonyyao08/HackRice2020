@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function(){
-    drawChart("#timelineChart", "eventsdata.json");
+    drawChart("#timelineChart", "https://raw.githubusercontent.com/tonyyao08/HackRice2020/master/eventsdata.json");
     //drawChart("#timelineChart1", "https://raw.githubusercontent.com/c-c-l/D3ITL/master/data/timeline.json");
   });
   
