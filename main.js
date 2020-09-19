@@ -4,9 +4,9 @@ new Vue({
         return {
             options: {
                 afterLoad: this.afterLoad,
-                navigation: true,
+                navigation: false,
                 anchors: ['page1', 'page2', 'page3'],
-                sectionsColor: ['#41b883', '#ff5f45', '#0798ec', '#fec401', '#1bcee6', '#ee1a59', '#2c3e4f', '#ba5be9', '#b4b8ab']
+                sectionsColor: ['#FFFFFF', '#FFFFFF', '	#FFFFFF', '#fec401', '#1bcee6', '#ee1a59', '#2c3e4f', '#ba5be9', '#b4b8ab']
             },
         }
     },
@@ -58,3 +58,4 @@ new Vue({
         },
     }
 });
+

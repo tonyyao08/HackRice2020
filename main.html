@@ -8,42 +8,73 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="timeline.css">
     <!-- Libs -->
-		<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://momentjs.com/downloads/moment.js"></script>
     <!-- End libs -->
-		<script type="text/javascript" src="timeline.js"></script>
+	<script type="text/javascript" src="timeline.js"></script>
 </head>
 <div id="app">
     <full-page :options="options" id="fullpage" ref="fullpage">
-        <div class="section">
-            <h2 id= "mainHeader">Black Lives Matter</h2>
-            <div class='tline'>
-                <h2>Timeline - ???</h2>
-                <p>here is some text</p>
-                <div id='timelineChart' class='tline'></div>
-                
+        <div id = "firstpage" class="section">
+            <div id= "content1">
+                <h3 style= "font-size: 144px"> Black Lives Matter</h3>
+                <h2 style= "font-size: 48px"> Take a trip into the history of BLM movement... </h2>
+                <p id= "firstpagearrow"><i class="arrowDown"></i></p>
             </div>
             
         </div>
-        <div class="section">
+        <div id = "secondpage" class="section">
             <div class="slide">
-                <h3>Slide 2.1</h3>
-                
+                <div class='tline'>
+                    <h3 style= "font-size: 72px">2018</h3>
+                    <div id='timelineChart' class='tline'></div>
+                    
+                </div>
             </div>
             <div class="slide">
-                <h3>Slide 2.2</h3>
+                <div class='tline'>
+                    <h3 style= "font-size: 72px">2019</h3>
+                    <div id='timelineChart1' class='tline'></div>
+                    
+                </div>
             </div>
             <div class="slide">
-                <h3>Slide 2.3</h3>
+                <div class='tline'>
+                    <h3 style= "font-size: 72px">2020</h3>
+                    <div id='timelineChart2' class='tline'></div>
+                    
+                </div>
             </div>
         </div>
-        <div class="section">
-            <h3>Section 3</h3>
+        <div id = "thirdpage" class="section">
+            <div id= "content3">
+                <h3 style= "font-size: 96px">Our Mission</h3>
+    
+                <p style ="font-size: 48px"> The Black Lives Matter movement is an important part of America's history, buth
+                  past and present. Our goal is to allow anyone to easily educate themselves about this
+                  movement, as well as to visually represent all of the major events in a timeline. <br><br>
+                </p>
+                <p style ="font-size: 48px"> We hope that this information will help contribute to the changes we are all
+                  fighting for.
+                </p>
+              </div>
         </div>
+        <div id = "fourthpage" class = "section">
+            <div id= "content4">
+                <h3 style= "font-size: 96px"> Take Action</h3>
+                <div style= "font-size: 64px">
+                    <a href= "https://blacklivesmatter.com/"> Official Black Lives Matter Page</a><br>
+                    <a href= "https://allianceforbmoc.org/"> Alliance for Boys and Men of Color</a><br>
+                    <a href= "https://www.civilrightsproject.ucla.edu/"> UCLA - The Civil Rights Project</a><br>
+                    <a href= "https://theacru.org/"> American Civil Rights Union</a><br>
+                    <a href= "https://mappingpoliceviolence.org/aboutthedata"> Police Brutality Open Databank</a>
+                </div>
+            </div>
+        <div>
     </full-page>
 
-    <a class="view-github" href="https://github.com/alvarotrigo/vue-fullpage.js" target="_blank">View on Github</a>
-
+    
+    
 </div>
 
 

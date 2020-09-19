@@ -1,25 +1,49 @@
-var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+// const data = require('./all-locations-v3.json');
+// // console.log(data);
+// subdata=data.data;
+// var count = 0;
+// var keys = [];
+// var dateKeyArray = [];
+// for(var myKey in subdata) {
+    
+//     dateKeyArray.push([JSON.stringify(subdata[myKey].date),count]);
+//     // console.log(JSON.stringify(subdata[myKey].date, null, 2));
+//     // console.log(JSON.stringify(subdata[myKey].city, null, 2));
+//     // console.log(JSON.stringify(subdata[myKey].name, null, 2));
+//     count++;
+    
+// }
 
-var getJSON = function(url, callback) {
-        var xhr = new XMLHttpRequest();
-        xhr.open('GET', url, true);
-        xhr.responseType = 'json';
-        xhr.onload = function() {
-          var status = xhr.status;
-          if (status === 200) {
-            callback(null, xhr.response);
-          } else {
-            callback(status, xhr.response);
-          }
-        };
-        xhr.send();
-    };
+// dateKeyArray.sort();
+// for(var i=0; i<4; i++){
+//     dateKeyArray.shift();
+// }
 
-    getJSON('https://raw.githubusercontent.com/2020PB/police-brutality/data_build/all-locations-v2.json',
-    function(err, data) {
-      if (err !== null) {
-        alert('Something went wrong: ' + err);
-      } else {
-        console.log('Your query count: ' + data);
-      }
-    });
+// // console.log(dateKeyArray);
+
+// var startingIndex=0;
+// var incrementingIndex=1;
+
+// var compiledDates=[];
+// compiledDates.push(dateKeyArray[startingIndex]);
+
+// // console.log(dateKeyArray[startingIndex][0]);
+
+// while(incrementingIndex<dateKeyArray.length){
+//     var currentDate
+//     if(dateKeyArray[startingIndex][0]==dateKeyArray[incrementingIndex][0]){
+
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
