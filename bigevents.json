@@ -26,15 +26,6 @@
         "description": "On July 17, 2014, Eric Garner died in the New York City borough of Staten Island after Daniel Pantaleo, a New York City Police Department (NYPD) officer, put him in a prohibited chokehold while arresting him.",
         "links": "https://en.wikipedia.org/wiki/Killing_of_Eric_Garner"
     },
-    {
-        "id": 53,
-        "name": "Shooting of John Crawford",
-        "startDate": "2014-08-05",
-        "state": "OH",
-        "placeName": "Dayton",
-        "description": "The shooting of John Crawford III occurred on August 5, 2014. Crawford was a 22-year-old African-American man shot and killed by a police officer in a Walmart store in Beavercreek, Ohio, near Dayton, while he was holding a BB gun that was for sale in the store.",
-        "links": "https://en.wikipedia.org/wiki/Shooting_of_John_Crawford_III"
-    },
     
     {
         "id": 54,
@@ -44,16 +35,6 @@
         "placeName": "Ferguson",
         "description": "On August 9, 2014, Michael Brown Jr., an 18-year-old black man, was fatally shot by 28-year-old white Ferguson police officer Darren Wilson in the city of Ferguson, Missouri, a suburb of St. Louis. Brown was accompanied by his 22-year-old friend Dorian Johnson. Wilson said that an altercation ensued when Brown attacked Wilson in his police vehicle for control of Wilson's gun until it was fired.Johnson claimed that Wilson initiated a confrontation by grabbing Brown by the neck through his car window, threatening him and then shooting at him.At this point, both Wilson and Johnson state that Brown and Johnson fled, with Wilson pursuing Brown shortly thereafter. Wilson stated that Brown stopped and charged him after a short pursuit. Johnson contradicted this account, stating that Brown turned around with his hands raised after Wilson shot at his back. According to Johnson, Wilson then shot Brown multiple times until Brown fell to the ground. In the entire altercation, Wilson fired a total of twelve bullets, including twice during the struggle in the car. Brown was struck six times, all in the front of his body.",
         "links": "https://en.wikipedia.org/wiki/Shooting_of_Michael_Brown"
-    },
-
-    {
-        "id": 55,
-        "name": "Shooting of Akai Gurley",
-        "startDate": "2014-11-20",
-        "state": "NY",
-        "placeName": "Brokklyn",
-        "description": "Akai Gurley, a 28-year-old man, was fatally shot on November 20, 2014, in Brooklyn, New York City, United States, by a New York City Police Department officer. Two police officers, patrolling stairwells in the New York City Housing Authority (NYCHA)'s Louis H. Pink Houses in East New York, Brooklyn, entered a pitch-dark, unlit stairwell, one of them, Officer Peter Liang, 27, with his firearm drawn. Gurley and his girlfriend entered the seventh-floor stairwell, fourteen steps below them. Liang fired his weapon; his shot ricocheted off a wall and fatally struck Gurley in the chest. ",
-        "links": "https://en.wikipedia.org/wiki/Shooting_of_Akai_Gurley"
     },
     {
         "id": 56,

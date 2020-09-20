@@ -7,9 +7,9 @@ document.addEventListener("DOMContentLoaded", function () {
   );
   drawChart(
     "#timelineChart1",
-    "https://raw.githubusercontent.com/pearl6527/something-timelines/master/TIMELINES/assets/testfile.json",
+    "https://raw.githubusercontent.com/tonyyao08/HackRice2020/master/bigevents.json",
     "Chart1",
-    2, 1589428800000 /* 2020-05-14 */, Date.now(), "65%"
+    2, 1328418000000 /* 2012 */, 1584936000000, "65%"
   );
 });
 
@@ -52,7 +52,7 @@ function drawChart(selector, file_path, chart_id, line_num, date_start, date_end
       });
       return output;
     }
-
+    
     let scaleLine = d3
       .scaleLinear()
       .domain([date_start, date_end])
@@ -77,7 +77,7 @@ function drawChart(selector, file_path, chart_id, line_num, date_start, date_end
     group
       .append("circle")
       .attr("cx", function (data) {
-        return scaleLine(convertToTimeStamp(data.startDate));
+        return scaleLine(convertToTimeStamp((data.startDate)));
       })
       .attr("cy", line_h)
       .attr("r", function (data) {

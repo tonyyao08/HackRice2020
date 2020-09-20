@@ -227,6 +227,14 @@ a:link {
     padding-right: 200px;
     font-family: 'Roboto Slab', serif;
 }
+#arrowimage{
+    border: 0;
+    border: none;
+    outline: none;
+}
+#arrowimage:hover{
+    filter: brightness(50%);
+}
 /*.arrowDown {
     border: solid white;
     border-width: 0px 15px 15px 0px;
