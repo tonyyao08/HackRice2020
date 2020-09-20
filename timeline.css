@@ -182,6 +182,7 @@ h2 {
 .circle-wv, .circle-wv ~ .text-position, .details-wv .text-position,
 .circle-wi, .circle-wi ~ .text-position, .details-wi .text-position,
 .circle-wy, .circle-wy ~ .text-position, .details-wy .text-position {
-  color: #622569;
-  fill: #622569;
+  color:#a76bad;
+  fill: #a76bad;
+}
 }
