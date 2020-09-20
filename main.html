@@ -11,63 +11,71 @@
 	<script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://momentjs.com/downloads/moment.js"></script>
     <!-- End libs -->
-	<script type="text/javascript" src="timeline.js"></script>
+    <script type="text/javascript" src="timeline.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <div id="app">
     <full-page :options="options" id="fullpage" ref="fullpage">
         <div id = "firstpage" class="section">
             <div id= "content1">
                 <h3 style= "font-size: 144px"> Black Lives Matter</h3>
-                <h2 style= "font-size: 48px"> Take a trip into the history of BLM movement... </h2>
+                <h2 style= "font-size: 48px"> Take a trip into the history of the BLM movement... </h2>
                 <p id= "firstpagearrow"><i class="arrowDown"></i></p>
             </div>
             
         </div>
         <div id = "secondpage" class="section">
             <div class="slide">
-                <div id = "firsttimeline" class='tline'>
-                    <h3 style= "font-size: 72px">2018</h3>
+                <div id= "content2slide1"> 
+                    <h3 style= "font-size: 96px"> <u>May 25, 2020 </u></h3>
+                    <p style= "font-size:50px"> <br> On this day, George Floyd was murdered by a police officer who kneeled on his neck for 8 minutes and 46 seconds. <br><br>
+                    </p>
+                    <p style= "font-size:30px">    
+                    <b>Click right</b> to explore how his name fueled the movement in the future months.<br>
+                    </p>
+                    <p style= "font-size:30px">
+                    <b>Click right again</b> to see the many notable events that gave the BLM a strong foundation.
+                    </p>
+                
+                </div>
+            </div>
+            <div class="slide">
+                <div class='tline'>
+                    <h3>2020</h3>
+                    <p style="color: #FFF">here is some text</p>
                     <div id='timelineChart' class='tline'></div>
-                    
                 </div>
             </div>
             <div class="slide">
                 <div class='tline'>
-                    <h3 style= "font-size: 72px">2019</h3>
+                    <h3>Before</h3>
+                    <p>here is some text</p>
                     <div id='timelineChart1' class='tline'></div>
-                    
-                </div>
-            </div>
-            <div class="slide">
-                <div class='tline'>
-                    <h3 style= "font-size: 72px">2020</h3>
-                    <div id='timelineChart2' class='tline'></div>
-                    
                 </div>
             </div>
         </div>
         <div id = "thirdpage" class="section">
             <div id= "content3">
                 <h3 style= "font-size: 96px">Our Mission</h3>
+                <p style ="font-size: 50px"> <br>The Black Lives Matter movement is an important part of America's history, both
+                past and present. Our goal is to allow anyone to easily educate themselves about this
+                movement, as well as to visually represent all of the major events in a timeline.<br><br>
+                </p>
+                <p style ="font-size: 50px"> We hope that this information will help contribute to the changes we are all
+                fighting for.
+                </p>
     
-                <p style ="font-size: 43px"> The Black Lives Matter movement is an important part of America's history, both
-                  past and present. Our goal is to allow anyone to easily educate themselves about this
-                  movement, as well as to visually represent all of the major events in a timeline.<br><br>
-                </p>
-                <p style ="font-size: 43px"> We hope that this information will help contribute to the changes we are all
-                  fighting for.
-                </p>
             </div>
         </div>
         <div id = "fourthpage" class = "section">
             <div id= "content4">
                 <h3 style= "font-size: 96px"> Take Action</h3>
                 <p id= "fourthpagelinks" style= "font-size: 50px">
-                    <a href= "https://blacklivesmatter.com/"> Official Black Lives Matter Page</a><br>
-                    <a href= "https://allianceforbmoc.org/"> Alliance for Boys and Men of Color</a><br>
-                    <a href= "https://www.civilrightsproject.ucla.edu/"> UCLA - The Civil Rights Project</a><br>
-                    <a href= "https://theacru.org/"> American Civil Rights Union</a><br>
-                    <a href= "https://mappingpoliceviolence.org/aboutthedata"> Police Brutality Open Databank</a>
+                    <a href= "https://blacklivesmatter.com/"> <u> Official Black Lives Matter Page </u> </a><br>
+                    <a href= "https://allianceforbmoc.org/"> <u> Alliance for Boys and Men of Color </u> </a><br>
+                    <a href= "https://www.civilrightsproject.ucla.edu/"> <u> UCLA - The Civil Rights Project </u> </a><br>
+                    <a href= "https://theacru.org/"> <u> American Civil Rights Union </u> </a><br>
+                    <a href= "https://mappingpoliceviolence.org/aboutthedata"> <u> Police Brutality Open Databank </u> </a>
                 </p>
             </div>
         <div>

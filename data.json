@@ -1,529 +1,394 @@
 [
     {
         "id": 0,
+        "name": "Man shot in head with pepper ball",
         "startDate": "2020-05-28",
         "state": "NC",
         "placeName": "Asheville",
         "description": "A man was shot in the head at close range with a pepper ball. Footage was uploaded on June 9th, but date of incident is unknown.",
-        "links": [
-            {
-                "url": "https://twitter.com/greg_doucette/status/1270378392454672390"
-            },
-            {
-                "url": "https://twitter.com/greg_doucette/status/1270378863219138561"
-            }
+        "links": [ "https://twitter.com/greg_doucette/status/1270378392454672390",
+            "https://twitter.com/greg_doucette/status/1270378863219138561"
         ]
     },
     {
         "id": 1,
+        "name": "Law enforcement close on protesters from both sides with pepper bullets, tear gas, and flashbangs",
         "startDate": "2020-05-30",
         "state": "NC",
         "placeName": "Charlotte",
         "description": "Law enforcement close on protesters from both sides with pepper bullets, tear gas, and flashbangs. Some protesters escape into an adjacent parking structure. Jeff Jackson, an NC State senator whose district contains the Uptown Charlotte area, later posted a review of the incident on Medium.com, in which he decries the incident and states he has begun the process of opening an investigation with the Charlotte-Mecklenburg Police Department. Body cam footage released several months later shows police coordinating the kettling and tear gassing.",
-        "links": [
-            {
-                "url": "https://www.youtube.com/watch?v=QmJEQVj2fdc&feature=youtu.be"
-            },
-            {
-                "url": "https://medium.com/@Jeff_Jackson/review-of-incident-in-charlotte-on-4th-street-on-the-evening-of-june-2nd-2963d4598500"
-            }
+        "links": [ "https://www.youtube.com/watch?v=QmJEQVj2fdc&feature=youtu.be", 
+            "https://medium.com/@Jeff_Jackson/review-of-incident-in-charlotte-on-4th-street-on-the-evening-of-june-2nd-2963d4598500"
         ]
     },
     {
         "id": 2,
+        "name": "Charlotte Sheriff declares Jail Support station unlawful; officer assaults press during mass arrests",
         "startDate": "2020-06-01",
         "state": "NC",
         "placeName": "Charlotte",
         "description": "The Mecklenburg Sheriff's department declared a jail support site unlawful. The site is a series of tents on the sidewalk designed to provide food, water, medical care and support to released protesters. Jail support providers refused to leave, so police began making mass arrests. During arrests, people were thrown from bikes, shoved and knelt on to zip tie. In addition, a reporter filming was struck by an officer and threatened with arrest.",
-        "links": [
-            {
-                "url": "https://www.instagram.com/tv/CA9UOKAj7MC/"
-            },
-            {
-                "url": "https://www.facebook.com/queencitynerve/videos/302573580898919"
-            }
+        "links": [ "https://www.instagram.com/tv/CA9UOKAj7MC/",
+            "https://www.facebook.com/queencitynerve/videos/302573580898919"
         ]
     },
     {
         "id": 3,
+        "name": "Police shove and pepper spray RNC protesters",
         "startDate": "2020-06-03",
         "state": "NC",
         "placeName": "Charlotte",
         "description": "At a protest outside the Republican National Convention in Charlotte, NC, police used bikes to shove protesters and pepper sprayed others. A journalist filming the scene was caught in the pepper spray.",
-        "links": [
-            {
-                "url": "https://twitter.com/queencitynerve/status/1297004840644739072"
-            },
-            {
-                "url": "https://twitter.com/queencitynerve/status/1297007019346583552"
-            }
+        "links": [ "https://twitter.com/queencitynerve/status/1297004840644739072",
+            "https://twitter.com/queencitynerve/status/1297007019346583552"
         ]
     },
     {
         "id": 4,
+        "name": "Police pepper spray kettled protesters",
         "startDate": "2020-06-05",
         "state": "NC",
         "placeName": "Charlotte",
         "description": "At an RNC protest in Charlotte, NC, police kettled protesters at College and 4th Streets shortly after midnight. Police then begin shouting 'Move' and pepper spray protesters.",
-        "links": [
-            {
-                "url": "https://twitter.com/queencitynerve/status/1297757281359208450"
-            }
+        "links": [ "https://twitter.com/queencitynerve/status/1297757281359208450"
         ]
     },
     {
         "id": 5,
+        "name": "Police with live ammo arrest protesters sitting in cars",
         "startDate": "2020-06-07",
         "state": "NC",
         "placeName": "Gastonia",
         "description": "Footage shows militarized police with long guns carrying live ammo running up on protesters. Black protesters are removed from their vehicles and arrested. According to the senior editor of the Triad City Beat, an NC news outlet, police arrested these protesters after an alleged dispute between BLM protesters and an older white couple, in which the couple allegedly pulled a gun and knife on protesters. According to the reporter, only protesters were charged with any offenses.",
-        "links": [
-            {
-                "url": "https://twitter.com/jordangreentcb/status/1286110757223006208"
-            },
-            {
-                "url": "https://twitter.com/jordangreentcb/status/1286110760284893184"
-            }
+        "links": [ "https://twitter.com/jordangreentcb/status/1286110757223006208",
+            "https://twitter.com/jordangreentcb/status/1286110760284893184"
         ]
     },
     {
         "id": 6,
+        "name": "Police use tear gas to clear road",
         "startDate": "2020-06-09",
         "state": "NC",
         "placeName": "Raleigh",
         "description": "Shortly before 7pm on May 31st, police fired tear gas to disperse peaceful protesters gathered on the street before advancing across the intersection. Police later justified the use of force by stating that protesters were blocking the path of an EMS vehicle, although no vehicle can be seen in the footage.",
-        "links": [
-            {
-                "url": "https://www.cbs17.com/news/local-news/wake-county-news/about-100-march-during-protest-in-downtown-raleigh-sunday-afternoon"
-            },
-            {
-                "url": "https://www.wral.com/raleigh-police-fire-tear-gas-again-on-second-day-of-downtown-protests/19123254/"
-            }
+        "links": [ "https://www.cbs17.com/news/local-news/wake-county-news/about-100-march-during-protest-in-downtown-raleigh-sunday-afternoon",
+            "https://www.wral.com/raleigh-police-fire-tear-gas-again-on-second-day-of-downtown-protests/19123254/"
         ]
     },
     {
         "id": 7,
+        "name": "Police fire tear gas at peacful protesters",
         "startDate": "2020-06-12",
         "state": "NC",
         "placeName": "Raleigh",
         "description": "Police fire tear gas at protesters throughout protests on May 31st. Footage show police firing into a crowd.",
-        "links": [
-            {
-                "url": "https://twitter.com/greg_doucette/status/1266951077183868928"
-            },
-            {
-                "url": "https://youtu.be/hZsQY1XagKc"
-            }
+        "links": ["https://twitter.com/greg_doucette/status/1266951077183868928",
+            "https://youtu.be/hZsQY1XagKc"
         ]
     },
     {
         "id": 8,
+        "name": "Police shoot to intimidate owner of LGBTQ bar",
         "startDate": "2020-06-14",
         "state": "NC",
         "placeName": "Raleigh",
         "description": "A group of police approach a man who identified himself as the owner of the business he was standing outside of. He was not a protester himself, but had been handing out refreshments to protesters. They fire some kind of shots to intimidate him before shouting 'the game is over!'.",
-        "links": [
-            {
-                "url": "https://www.newsobserver.com/news/local/article243202416.html"
-            },
-            {
-                "url": "https://www.instagram.com/p/CA51AJxH7S9 (on the sixth page)"
-            }
+        "links": [ "https://www.newsobserver.com/news/local/article243202416.html",
+            "https://www.instagram.com/p/CA51AJxH7S9 (on the sixth page)"
         ]
     },
     {
         "id": 9,
+        "name": "Raleigh police roughly arrest protesters",
         "startDate": "2020-06-16",
         "state": "NC",
         "placeName": "Raleigh",
         "description": "Footage shows violent arrests of 2 protesters. Multiple officers grab the individuals, shoving and pulling them. The officers also shove numerous protesters out of the way. One of the arrestees was a minor and charges were not filed against them. Police later dropped charges against the adult protester. Police claimed the individuals were blocking the street, but presented no supporting footage and the lack of charges casts doubt on the claim. A tweet from the police states the juvenile protester was arrested for Assault of an officer, while the adult was arrested for resist, delay and obstruct.",
-        "links": [
-            {
-                "url": "https://www.wral.com/two-arrested-after-n-c-born-protest-in-downtown-raleigh/19151333/"
-            },
-            {
-                "url": "https://twitter.com/raleighpolice/status/1273786583913771009"
-            }
+        "links": ["https://www.wral.com/two-arrested-after-n-c-born-protest-in-downtown-raleigh/19151333/",
+            "https://twitter.com/raleighpolice/status/1273786583913771009"
         ]
     },
     {
         "id": 10,
+        "name": "Native protesters shot at and arrested on native land",
         "startDate": "2020-06-18",
         "state": "SD",
         "placeName": "Keystone",
         "description": "Native protesters in Keystone, South Dakota blocked a highway in anticipation of a Trump rally. Though blocking a highway is indeed illegal, the highway is also on unceded Indigenous land. Around 2:07:00, the police and National Guard line advances with shields. Protesters resist being pushed. National Guard falls back around 2:17:00. Around 2:20:00, the line reforms. Around 2:27:00, the National Guard fires pepper balls at gathered protesters. Some protesters had gathered on a nearby hill and were pushed off by police (2:36:00). Around 3:00:00, National Guard push past the protester vans and begin the process of towing them. News reports additionally state that pepper spray and tear gas were used. The tear gas was deployed by the Pennington County Sheriff's Office.",
-        "links": [
-            {
-                "url": "https://www.pscp.tv/w/1BRKjYOAEMpxw"
-            },
-            {
-                "url": "https://rapidcityjournal.com/news/state-and-regional/update-protests-ramp-up-national-guard-on-the-scene-trump-scheduled-to-arrive-at-ellsworth/article_34e80951-45a2-529f-97c7-5c9e5154405a.html"
-            }
+        "links": [ "https://www.pscp.tv/w/1BRKjYOAEMpxw",
+            "https://rapidcityjournal.com/news/state-and-regional/update-protests-ramp-up-national-guard-on-the-scene-trump-scheduled-to-arrive-at-ellsworth/article_34e80951-45a2-529f-97c7-5c9e5154405a.html"
         ]
     },
     {
         "id": 11,
+        "name": "Reporter shows tear gas canister fired at him by police",
         "startDate": "2020-06-20",
         "state": "NE",
         "placeName": "Lincoln",
         "description": "A reporter posted a picture of a tear gas canister, allegedly used in Lincoln protests. In the tweet, he states he and his photographer were tear gassed twice by police.",
-        "links": [
-            {
-                "url": "https://twitter.com/ChrisDunkerLJS/status/1268938853945167873"
-            },
-            {
-                "url": "https://twitter.com/ChrisDunkerLJS/status/1268981851164684290"
-            }
+        "links": ["https://twitter.com/ChrisDunkerLJS/status/1268938853945167873",
+            "https://twitter.com/ChrisDunkerLJS/status/1268981851164684290"
         ]
     },
     {
         "id": 12,
+        "name": "Police Mace, shoot pepper bullets at protesters sitting on the ground",
         "startDate": "2020-06-22",
         "state": "NE",
         "placeName": "Omaha",
         "description": "A bunch of protesters peacefully sitting on the ground were shot at and maced. A group of police officers pushed these civilians on to the ground and hit them.",
-        "links": [
-            {
-                "url": "https://twitter.com/XruthxNthr/status/1266903223220097024"
-            },
-            {}
+        "links": ["https://twitter.com/XruthxNthr/status/1266903223220097024"
         ]
     },
     {
         "id": 13,
+        "name": "Police officer shoves protester on bike; police then escalate",
         "startDate": "2020-06-25",
         "state": "NE",
         "placeName": "Omaha",
         "description": "Footage shows a police officer shoving a protester on a bike. Police then fire impact munitions at protesters and shove protesters back. Protesters are pushed back to the highway fence. An officer grabs a protester standing around and takes him to the ground to arrest him. Police arrest more individuals, including the filmer, a journalist. The journalist states she has a press badge. The officer says, 'I don't know that that's real', and arrests her, cuffing her with zip-ties.",
-        "links": [
-            {
-                "url": "https://twitter.com/greg_doucette/status/1287403828086738944"
-            },
-            {
-                "url": "https://twitter.com/greg_doucette/status/1287404544893358081"
-            }
+        "links": ["https://twitter.com/greg_doucette/status/1287403828086738944",
+            "https://twitter.com/greg_doucette/status/1287404544893358081"
         ]
     },
     {
         "id": 14,
+        "name": "Riot police charge peaceful protesters",
         "startDate": "2020-06-27",
         "state": "MI",
         "placeName": "Detroit",
         "description": "Riot police charge peaceful protesters without warning. The filming protester and numerous others are beaten with riot shields.",
-        "links": [
-            {
-                "url": "https://twitter.com/julietmariaa/status/1266568356976635904"
-            }
+        "links": ["https://twitter.com/julietmariaa/status/1266568356976635904"
         ]
     },
     {
         "id": 15,
+        "name": "Police pepper-spray reporter holding up media badge",
         "startDate": "2020-06-29",
         "state": "MI",
         "placeName": "Detroit",
         "description": "Detroit Police pepper-spray a reporter in the face while he holds up a media badge.",
-        "links": [
-            {
-                "url": "https://twitter.com/jcreindl/status/1266925170192715782"
-            },
-            {
-                "url": "https://www.freep.com/story/news/local/michigan/detroit/2020/06/01/journalists-targeted-police-protests-detroit/5302659002/"
-            }
-        ]
-    },
-    {
-        "id": 16,
-        "startDate": "2020-06-29",
-        "state": "MI",
-        "placeName": "Detroit",
-        "description": "Detroit Police pepper-spray a reporter in the face while he holds up a media badge.",
-        "links": [
-            {
-                "url": "https://twitter.com/jcreindl/status/1266925170192715782"
-            },
-            {
-                "url": "https://www.freep.com/story/news/local/michigan/detroit/2020/06/01/journalists-targeted-police-protests-detroit/5302659002/"
-            }
+        "links": ["https://twitter.com/jcreindl/status/1266925170192715782",
+            "https://www.freep.com/story/news/local/michigan/detroit/2020/06/01/journalists-targeted-police-protests-detroit/5302659002/"
         ]
     },
     {
         "id": 17,
+        "name": "Woman is charged by police and thrown to the ground",
         "startDate": "2020-07-01",
         "state": "MI",
         "placeName": "Detroit",
         "description": "Police charge protesters. One woman does not flee and a police officer knocks her to the ground with his fist, before kneeling on her back to arrest her.",
-        "links": [
-            {
-                "url": "https://twitter.com/TheModLibrarian/status/1266587927783620613"
-            },
-            {}
+        "links": ["https://twitter.com/TheModLibrarian/status/1266587927783620613"
         ]
     },
     {
         "id": 18,
+        "name": "Police charge protesters and press",
         "startDate": "2020-07-03",
         "state": "MI",
         "placeName": "Detroit",
         "description": "Police line is seen using shields to push back a small group of protesters. The filmer, a reporter, moves around to the other side of the protesters. At this point, the footage captures another group of police officers charging the protesters from behind without warning. The footage becomes blurry as it appears that police strike the reporter, who repeatedly states, 'I am press', and is standing alongside several camera crews. The reporter states that they were beaten by police, their glasses were broken, and their phone thrown. In a subsequent video, the reporter speaks to the police chief and states in the description that they were pepper-sprayed. The police chief states that he will open an investigation. A second reporter off-screen tells the chief that multiple journalists were assaulted.",
-        "links": [
-            {
-                "url": "https://twitter.com/MCmuckraker/status/1267982859991728130"
-            },
-            {
-                "url": "https://twitter.com/MCmuckraker/status/1268011179986870273"
-            }
+        "links": ["https://twitter.com/MCmuckraker/status/1267982859991728130",
+            "https://twitter.com/MCmuckraker/status/1268011179986870273"
         ]
     },
     {
         "id": 19,
+        "name": "Police run over protesters",
         "startDate": "2020-07-05",
         "state": "MI",
         "placeName": "Detroit",
         "description": "A police cruiser begins to drive into a line of protesters. Protesters continue to move. The vehicle accelerates repeatedly, knocking several people over. At the end of the footage, the vehicle accelerates, knocking a protester onto the hood, and drives away.",
-        "links": [
-            {
-                "url": "https://twitter.com/DJEazyTwist/status/1277430912653950976"
-            },
-            {}
+        "links": ["https://twitter.com/DJEazyTwist/status/1277430912653950976"
         ]
     },
     {
         "id": 20,
+        "name": "Police tear gas protesters",
         "startDate": "2020-07-07",
         "state": "MI",
         "placeName": "Detroit",
         "description": "Police and protesters faced off at a protest in Detroit, Michigan around midnight on August 22nd. Police deployed gas grenades, believed to be tear gas, and marched towards protesters. Police then struck protesters with batons and shields, arresting several.",
-        "links": [
-            {
-                "url": "https://twitter.com/Kayleighmw/status/1297410211049811968"
-            },
-            {
-                "url": "https://twitter.com/YoDCox/status/1297398241617760257"
-            }
+        "links": ["https://twitter.com/Kayleighmw/status/1297410211049811968",
+            "https://twitter.com/YoDCox/status/1297398241617760257"
         ]
     },
     {
         "id": 21,
+        "name": "Police spray unarmed man with pepper-spray and shoot him in the face with a teargas canister",
         "startDate": "2020-07-09",
         "state": "MI",
         "placeName": "Grand Rapids",
         "description": "A single man walks down a street towards a line of police.  The man stops to talk with police, and an officer steps forward, pepper spraying him in the face. The man turns away, and then a tear-gas canister is shot by a different officer directly into the man's head.",
-        "links": [
-            {
-                "url": "https://old.reddit.com/r/Bad_Cop_No_Donut/comments/gub8fx/police_shoot_protestor_point_blank_in_the_face/"
-            },
-            {
-                "url": "https://www.fox17online.com/news/local-news/grand-rapids/grpd-conducting-internal-investigation-after-viral-video-of-man-being-pepper-sprayed"
-            }
+        "links": ["https://old.reddit.com/r/Bad_Cop_No_Donut/comments/gub8fx/police_shoot_protestor_point_blank_in_the_face/",
+        "https://www.fox17online.com/news/local-news/grand-rapids/grpd-conducting-internal-investigation-after-viral-video-of-man-being-pepper-sprayed"
         ]
     },
     {
         "id": 22,
+        "name": "Police assault peaceful protesters, among them Breonna Taylor's family members",
         "startDate": "2020-07-11",
         "state": "MI",
         "placeName": "Grand Rapids",
         "description": "City of Grand Rapids Police Department officers seen pushing, pulling, and shoving peaceful protesters, as they circle around an officer arresting a man. The arresting officer appears to force the man to his knees before the other officers finish encircling and view of the man is lost. Two different women, each in different videos, are shown falling or fallen over as a result of the shoving and pulling.",
-        "links": [
-            {
-                "url": "https://twitter.com/OfficAlyNicole/status/1283181085577420810"
-            },
-            {
-                "url": "https://twitter.com/greg_doucette/status/1283027125805735939"
-            }
+        "links": ["https://twitter.com/OfficAlyNicole/status/1283181085577420810",
+            "https://twitter.com/greg_doucette/status/1283027125805735939"
         ]
     },
     {
-        "id": 23,
+        "id": 23,           
+        "name": "Police fire tear gas at peaceful protesters",
         "startDate": "2020-07-13",
         "state": "MI",
         "placeName": "Kalamazoo",
         "description": "A crowd of peaceful protesters downtown refused to disperse upon curfew taking effect. A protester in a tie-die shirt kicked tear gas away from a fellow kneeling protester, and was then arrested by police against a National Guard humvee.",
-        "links": [
-            {
-                "url": "https://streamable.com/0wfiu3"
-            },
-            {
-                "url": "https://www.mlive.com/news/kalamazoo/2020/06/my-heart-was-wrenched-with-pain-assistant-chief-says-of-ordering-tear-gas-on-protesters.html"
-            }
+        "links": ["https://streamable.com/0wfiu3",
+"https://www.mlive.com/news/kalamazoo/2020/06/my-heart-was-wrenched-with-pain-assistant-chief-says-of-ordering-tear-gas-on-protesters.html"
         ]
     },
     {
         "id": 24,
+        "name": "Police charge, pepper spray, and tackle protesters",
         "startDate": "2020-07-15",
         "state": "MI",
         "placeName": "Kalamazoo",
         "description": "Police charge at protesters, pepper spraying indiscriminately. One protester is also tackled to the ground.",
-        "links": [
-            {
-                "url": "https://www.reddit.com/r/2020PoliceBrutality/comments/iaki6j/police_charge_antifascist_protestors_today_in/"
-            },
-            {}
+        "links": ["https://www.reddit.com/r/2020PoliceBrutality/comments/iaki6j/police_charge_antifascist_protestors_today_in/"
         ]
     },
     {
         "id": 25,
+        "name": "Officer pins protester by pushing his knee into his neck",
         "startDate": "2020-07-17",
         "state": "WA",
         "placeName": "Seattle",
         "description": "Officer pins protester with his knee on his neck. His partner intervenes and moves his knee onto the individual's back. Possibly related to OPD Case 2020OPA-0324 - 'Placing the knee on the neck area of two people who had been arrested'",
-        "links": [
-            {
-                "url": "https://mobile.twitter.com/chadloder/status/1267011092045115392"
-            },
-            {}
+        "links": ["https://mobile.twitter.com/chadloder/status/1267011092045115392"
         ]
     },
     {
         "id": 26,
+        "name": "Police indiscriminately pepper spray peaceful protesters",
         "startDate": "2020-07-19",
         "state": "WA",
         "placeName": "Seattle",
         "description": "A police officer randomly and indiscriminately pepper sprays civilians walking around, which then went on to spark a riot.",
-        "links": [
-            {
-                "url": "https://www.reddit.com/r/Bad_Cop_No_Donut/comments/gtt3w8/i_caught_the_moment_seattle_police_pepper_sprayed/"
-            }
+        "links": ["https://www.reddit.com/r/Bad_Cop_No_Donut/comments/gtt3w8/i_caught_the_moment_seattle_police_pepper_sprayed/"
         ]
     },
     {
         "id": 27,
+        "name": "Police throw tear gas at peaceful protesters",
         "startDate": "2020-07-21",
         "state": "WA",
         "placeName": "Seattle",
         "description": "A sheriff throws a canister of tear gas into a crowd of peaceful protesters.",
-        "links": [
-            {
-                "url": "https://www.reddit.com/r/Seattle/comments/gu3qq1/cop_just_casually_tosses_tear_gas_at_my_feet_like/"
-            },
-            {
-                "url": "https://www.google.ca/maps/@47.6117535,-122.3363867,3a,75y,340.76h,98.03t/data=!3m7!1e1!3m5!1s3_dezBzQDIEjlJ1L0qu2QA!2e0!6s%2F%2Fgeo1.ggpht.com%2Fcbk%3Fpanoid%3D3_dezBzQDIEjlJ1L0qu2QA%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D141.4241%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192"
-            }
-        ]
+        "links": ["https://www.reddit.com/r/Seattle/comments/gu3qq1/cop_just_casually_tosses_tear_gas_at_my_feet_like/", "https://www.google.ca/maps/@47.6117535,-122.3363867,3a,75y,340.76h,98.03t/data=!3m7!1e1!3m5!1s3_dezBzQDIEjlJ1L0qu2QA!2e0!6s%2F%2Fgeo1.ggpht.com%2Fcbk%3Fpanoid%3D3_dezBzQDIEjlJ1L0qu2QA%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D141.4241%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192"]
     },
     {
         "id": 28,
+        "name": "Law enforcement officer punches pinned protester",
         "startDate": "2020-07-23",
         "state": "WA",
         "placeName": "Seattle",
         "description": "In this video, officers wrestle with two protesters on the floor. One officer punches the protester he has pinned at 0:15.",
-        "links": [
-            {
-                "url": "https://twitter.com/The_Stepover/status/1267236742278463488"
-            },
-            {
-                "url": "https://twitter.com/eavu__/status/1267260549814870016"
-            }
-        ]
+        "links": ["https://twitter.com/The_Stepover/status/1267236742278463488", "https://twitter.com/eavu__/status/1267260549814870016"]
     },
     {
         "id": 29,
+        "name": "Police pepper spray crowd",
         "startDate": "2020-07-25",
         "state": "WA",
         "placeName": "Seattle",
         "description": "Police pepper spray peacefully protesting crowd.",
-        "links": [
-            {
-                "url": "https://www.reddit.com/r/Seattle/comments/gv0ru3/this_is_the_moment_it_all_happened/"
-            },
-            {
-                "url": "https://www.reddit.com/r/PublicFreakout/comments/gv1spo/the_moment_seattle_police_instigate_a_riot_over_a/"
-            }
-        ]
+        "links": ["https://www.reddit.com/r/Seattle/comments/gv0ru3/this_is_the_moment_it_all_happened/", "https://www.reddit.com/r/PublicFreakout/comments/gv1spo/the_moment_seattle_police_instigate_a_riot_over_a/"]
     },
     {
         "id": 30,
+        "name": "Police injure sleeping homeless man with flashbang",
         "startDate": "2020-07-27",
         "state": "WA",
         "placeName": "Seattle",
         "description": "Police flashbang hits a homeless man sleeping in a park.",
-        "links": [
-            {
-                "url": "https://www.facebook.com/kg.farmer/videos/278656296661372"
-            },
-            {}
-        ]
+        "links": ["https://www.facebook.com/kg.farmer/videos/278656296661372"]
     },
     {
         "id": 31,
+        "name": "Protester targeted days after protest",
         "startDate": "2020-07-29",
         "state": "WA",
         "placeName": "Seattle",
         "description": "Footage and reports show approximately 30 police officers in 6-7 squad cars arrive to arrest a woman in a car with her 9 year old child. Officers arrived on the scene brandishing mace, alleging that the woman assaulted two police officers several days prior. She was dragged from her car and the car was towed from her home. Officers cited a Star Wars meme depicting a Landspeeder with a caption saying, 'This machine kills facists,' as intent to kill officers. The woman states she tried to help a friend who was being shot with rubber bullets.",
-        "links": [
-            {
-                "url": "https://twitter.com/greg_doucette/status/1269380431478173699"
-            },
-            {
-                "url": "https://twitter.com/daeshikjr/status/1269328705752494081"
-            }
-        ]
+        "links": ["https://twitter.com/greg_doucette/status/1269380431478173699", "https://twitter.com/daeshikjr/status/1269328705752494081"]
     },
     {
         "id": 32,
+        "name": "Police kettle protesters to force them to disperse through tear-gas",
         "startDate": "2020-07-31",
         "state": "WA",
         "placeName": "Seattle",
         "description": "Seattle Police told protesters disperse, but then used bikes to block exits. Forced them through tear-gas, mace, flashbangs.",
-        "links": [
-            {
-                "url": "https://twitter.com/MikeApe7/status/1269533701194444800"
-            },
-            {
-                "url": "https://twitter.com/MikeApe7/status/1269538201254805504"
-            }
-        ]
+        "links": ["https://twitter.com/MikeApe7/status/1269533701194444800", "https://twitter.com/MikeApe7/status/1269538201254805504"]
     },
     {
-        "id": 33,
-        "startDate": "2020-07-31",
+        "id": 33,            
+        "name": "Police shoot peaceful protester",
+        "startDate": "2020-08-04",
         "state": "WA",
         "placeName": "Seattle",
-        "description": "Seattle Police told protesters disperse, but then used bikes to block exits. Forced them through tear-gas, mace, flashbangs.",
-        "links": [
-            {
-                "url": "https://twitter.com/MikeApe7/status/1269533701194444800"
-            },
-            {
-                "url": "https://twitter.com/MikeApe7/status/1269538201254805504"
-            }
-        ]
+        "description": "A protester is seen off to the side of the protest, speaking with another protester and holding a bucket. The camera pans away and a shot is heard. The camera pans back and shows the man fall to the ground, clutching his back.",
+        "links": ["https://twitter.com/RisingAnons/status/1269904786108887045"]
     },
     {
         "id": 34,
-        "startDate": "2020-08-04",
-        "state": "WA",
-        "placeName": "Seattle",
-        "description": "A protester is seen off to the side of the protest, speaking with another protester and holding a bucket. The camera pans away and a shot is heard. The camera pans back and shows the man fall to the ground, clutching his back.",
-        "links": [
-            {
-                "url": "https://twitter.com/RisingAnons/status/1269904786108887045"
-            },
-            {}
-        ]
-    },
-    {
-        "id": 35,
-        "startDate": "2020-08-04",
-        "state": "WA",
-        "placeName": "Seattle",
-        "description": "A protester is seen off to the side of the protest, speaking with another protester and holding a bucket. The camera pans away and a shot is heard. The camera pans back and shows the man fall to the ground, clutching his back.",
-        "links": [
-            {
-                "url": "https://twitter.com/RisingAnons/status/1269904786108887045"
-            },
-            {}
-        ]
-    },
-    {
-        "id": 36,
+        "name": "Police pepper spray protesters standing in their way",
         "startDate": "2020-08-06",
         "state": "WA",
         "placeName": "Seattle",
         "description": "Video shows several police officers attempting to make their way past the fence perimeter of the Capitol Hill Occupied Protest area, in order to gain access to the vacated precinct. Several protesters block their path on the sidewalk. The cops pepper spray at least one individual at close range. The person filming says 'they're tear-gassing people!' but the video caption says 'accidentally said 'tear gas' instead of 'pepper spray' in the video.' The crowd shouts loudly until the officers retreat.",
-        "links": [
-            {
-                "url": "https://www.facebook.com/natalie.bell.7334504/videos/949526905485027/"
-            }
-        ]
-    }
+        "links": ["https://www.facebook.com/natalie.bell.7334504/videos/949526905485027/"]
+    },
+
+    {
+   
+        "id": 35,
+        "name": "Police arrest journalist",
+        "startDate": "2020-08-14",
+        "state": "WA",
+        "placeName": "Seattle",
+        "description": "First person footage from a photojournalist shows the journalist filming a police car while stating that allegedly the officer in the car said that the officer has the photojournalist's address. The journalist repeats these words back, including the exact phrase, 'I have your address.' The officer then approaches him and arrests him for threatening an officer, alleging that the journalist claimed to have the officer's address. The second link shows the full series of events. The photojournalist is filming police as they write parking citations. He is using strong language with the officers and harassing them. However he is doing no more than hurling insults and noting names and badge numbers. At 2:00, it can be verified that the officer does say he has the journalist's address. So, in fact, when he is arrested for threatening an officer, he is repeating the officer's words back to him. Notably, this journalist filmed the arrest of the individual in wa-seattle-27.",
+        "links": ["https://twitter.com/spekulation/status/1281656761296936961", "https://www.reddit.com/r/PublicFreakout/comments/hovouj/seattle_police_officer_caught_making_up_a_false/"]
+    },    
+    
+    {
+        "id": 36,
+        "name": "Police charge protesters, knocking member of press to the ground",
+        "startDate": "2020-09-05",
+        "state": "OR",
+        "placeName": "Portland",
+        "description": "After declaring an unlawful assembly, police charge protesters to disperse them. One journalist was caught in the charge and thrown to the ground.",
+        "links": ["https://twitter.com/Johnnthelefty/status/1302528127504007168", "https://twitter.com/MrOlmos/status/1302492995585884161"]
+    },
+    {
+    "id": 37,
+    "name": "Police deploy tear gas and impact munitions against protesters",    
+    "startDate": "2020-09-08",
+    "state": "WA",
+    "placeName": "Seattle",
+    "description": "Protesters gathered in the street in Los Angeles on September 8th. Police approached in a line, flanking an armored vehicle. Police then charged protesters without warning and fired impact munitions (both rubber bullets and pepper balls) and stun grenades for several minutes. Several bystander cars were struck by munitions.",
+    "links": ["https://twitter.com/SamBraslow/status/1303563878039658497", "https://twitter.com/chrismatography/status/1303567876360527872"]
+    },
+
+    {
+    "id": 38,
+    "name": "Police charge protesters without warning",
+    "startDate": "2020-09-16",
+    "state": "NY",
+    "placeName": "Rochester",
+    "description": "Protesters camped out front of city hall demanding the resignation of Rochester mayor, Lovely Warren, and the arrests of the officers involved in the Daniel Prude case. Police assembled around 8:30 AM on Wednesday to disperse protesters. Police first pushed protesters off City Hall property, into the street. Police then gave a dispersal order, telling protesters to leave the street and sidewalk. Two officers suddenly charged at protesters, shoving one to the ground. Police chased several other protesters then returned to their line.",
+    "links": ["https://www.instagram.com/tv/CDSXj7opmyw/", "https://www.instagram.com/p/CDSdX-_nJ5h/"]
+}
+
+
 ]

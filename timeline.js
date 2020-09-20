@@ -1,37 +1,34 @@
 document.addEventListener("DOMContentLoaded", function () {
   drawChart(
     "#timelineChart",
-    "https://raw.githubusercontent.com/tonyyao08/HackRice2020/master/eventsdata.json",
-    "Chart"
+    "https://raw.githubusercontent.com/tonyyao08/HackRice2020/master/data.json",
+    "Chart",
+    1, 1589428800000 /* 2020-05-14 */, Date.now(), "50%"
   );
   drawChart(
     "#timelineChart1",
-    "https://raw.githubusercontent.com/pearl6527/something-timelines/master/TIMELINES/assets/somedata.json",
-    "Chart1"
-  );
-  drawChart(
-    "#timelineChart2",
-    "https://raw.githubusercontent.com/pearl6527/something-timelines/master/TIMELINES/assets/moredata.json",
-    "Chart2"
+    "https://raw.githubusercontent.com/pearl6527/something-timelines/master/TIMELINES/assets/testfile.json",
+    "Chart1",
+    2, 1589428800000 /* 2020-05-14 */, Date.now(), "50%"
   );
 });
 
-function drawChart(selector, file_path, chart_id) {
+function drawChart(selector, file_path, chart_id, line_num, date_start, date_end, line_h) {
   const svg = d3
     .select(selector)
     .append("svg")
     .attr("id", chart_id)
     .attr("width", "100%")
-    .attr("height", 500);
+    .attr("height", 300);
 
   d3.json(file_path).then(function (data) {
     svg
       .append("line")
       .attr("class", "timeline-base")
       .attr("x1", 0)
-      .attr("y1", 100)
-      .attr("x2", "90%")
-      .attr("y2", 100);
+      .attr("y1", line_h)
+      .attr("x2", "100%")
+      .attr("y2", line_h);
     
     // Get the value of the svg to for scaleLinear
     function getLineVal(val) {
@@ -45,14 +42,22 @@ function drawChart(selector, file_path, chart_id) {
     
     // Convert to UNIX timestamp
     function convertToTimeStamp(date) {
-      let parts = date.match(/(\d{4})-(\d{2})/);
-      return new Date(parts[1] + "-" + parts[2] + "-01").getTime();
+      let parts = date.match(/(\d{4})-(\d{2})-(\d{2})/);
+      return new Date(parts[1] + "-" + parts[2] + "-" + parts[3]).getTime();
+    }
+
+    function createLinks(arr) {
+      var output = "";
+      for (i in arr) {
+        output += i + "\n";
+      }
+      return output;
     }
 
     let scaleLine = d3
       .scaleLinear()
-      .domain([1285891200000, Date.now()])
-      .range([getLineVal("min") + 20, getLineVal("max") - 100]); // OFFSET = 20
+      .domain([date_start, date_end])
+      .range([getLineVal("min") + 100, getLineVal("max") - 100]); 
 
     let scaleCircle = d3
       .scaleLinear()
@@ -75,29 +80,20 @@ function drawChart(selector, file_path, chart_id) {
       .attr("cx", function (data) {
         return scaleLine(convertToTimeStamp(data.startDate));
       })
-      .attr("cy", 100)
+      .attr("cy", line_h)
       .attr("r", function (data) {
-        return scaleCircle(
-          convertToTimeStamp(data.endDate) - convertToTimeStamp(data.startDate)
-        );
+        return Math.random()*20 + 10;
       })
       .attr("fill-opacity", 0.5)
       .attr("class", function (data) {
-        return "circle-category circle-" + data.category.toLowerCase();
+        return "circle-state circle-" + data.state.toLowerCase();
       })
       .attr("id", function (data) {
         return "circle-" + data.id;
       })
       // When hover a circle
       .on("mouseover", function (d, i) {
-        d3.select(this).attr("r", function (data) {
-          return (
-            scaleCircle(
-              convertToTimeStamp(data.endDate) -
-                convertToTimeStamp(data.startDate)
-            ) + 20
-          );
-        });
+        d3.select(this).attr("r", 20);
         d3.select(this).classed("circle-hovered", true);
         d3.select(this.parentNode).selectAll("text").style("opacity", 1);
         d3.select(this.parentNode)
@@ -138,12 +134,7 @@ function drawChart(selector, file_path, chart_id) {
       })
       // When un-hover a circle
       .on("mouseout", function (d, i) {
-        d3.select(this).attr("r", function (data) {
-          return scaleCircle(
-            convertToTimeStamp(data.endDate) -
-              convertToTimeStamp(data.startDate)
-          );
-        });
+        d3.select(this).attr("r", Math.random()*20 + 10);
         d3.select(this).classed("circle-hovered", false);
         d3.select(this.parentNode).selectAll("text").style("opacity", 0);
       });
@@ -152,7 +143,7 @@ function drawChart(selector, file_path, chart_id) {
       .append("text")
       .style("opacity", 0)
       .text(function (data) {
-        return data.name;
+        return data.name + "[SHOULD HAVE NAME]";
       })
       .attr("x", function (data) {
         let elementWitdh = this.getBoundingClientRect().width;
@@ -173,8 +164,8 @@ function drawChart(selector, file_path, chart_id) {
       .append("text")
       .text(function (data) {
         // Get only YYYY-MM
-        if (data.startDate.length > 7) {
-          return data.startDate.slice(0, 7);
+        if (data.startDate.length > 12) {
+          return data.startDate.slice(0, 10);
         } else {
           return data.startDate;
         }
@@ -203,18 +194,18 @@ function drawChart(selector, file_path, chart_id) {
         .select(selector)
         .append("div")
         .classed("details", true)
-        .classed("details-" + d.category.toLowerCase(), true)
+        .classed("details-" + d.state.toLowerCase(), true)
         .attr("id", "details-" + d.id);
       details
         .append("i")
-        .classed("material-icons close-icon", true)
+        .classed("material-icons close-icon close-icon" + line_num, true)
         .text("close");
       details
         .append("div")
         .classed("title", true)
         .append("span")
         .classed("date text-date date-title", true)
-        .text(d.startDate + "-" + d.endDate);
+        .text(d.startDate);
       details
         .select(" .title")
         .append("span")
@@ -223,7 +214,7 @@ function drawChart(selector, file_path, chart_id) {
       details
         .append("div")
         .classed("place-name text-place hovered", true)
-        .text(d.placeName);
+        .text(d.placeName + ", " + d.state);
       details
         .append("div")
         .attr("class", "text-desc")
@@ -239,7 +230,7 @@ function drawChart(selector, file_path, chart_id) {
     });
 
     // Hide the details div (once opened by clicking on circle)
-    d3.selectAll(".close-icon").on("click", function () {
+    d3.selectAll(".close-icon" + line_num).on("click", function () {
       d3.select(this.parentNode).style("opacity", 0);
       setTimeout(function () {
         svg.attr("height", 500);

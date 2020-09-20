@@ -50,7 +50,8 @@ abbr,acronym { border: 0;
 /* Custom
  * --------------------------------------- */
 body {
-    font-family: arial, helvetica;
+    font-family: 'Roboto Slab', serif;
+    /* font-family: arial, helvetica; */
 }
 .section{
     position: relative;
@@ -163,7 +164,7 @@ h3{
     background: linear-gradient( rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76) ),url("https://i.ibb.co/kHD5Cvz/5.png");
 }
 #fourthpagelinks{
-    padding-top: 200px;
+    padding-top: 30px;
     padding-bottom: 200px;
 }
 #firsttimeline{
@@ -196,7 +197,16 @@ a:link {
     padding-top: 100px;
     padding-left: 200px;
     padding-right: 200px;
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab', serif;
+
+}
+#content2slide1{
+    color: white;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    /*padding-bottom: 500px;*/
+    font-family: 'Roboto Slab', serif;
 
 }
 #content3{
@@ -204,7 +214,8 @@ a:link {
     padding-top: 100px;
     padding-left: 200px;
     padding-right: 200px;
-    font-family: Roboto Slab;
+    /*padding-bottom: 500px;*/
+    font-family: 'Roboto Slab', serif;
 }
 
 #content4{
@@ -212,7 +223,7 @@ a:link {
     padding-top: 100px;
     padding-left: 200px;
     padding-right: 200px;
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab', serif;
 }
 .arrowDown {
     border: solid white;

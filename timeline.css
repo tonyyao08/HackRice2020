@@ -1,96 +1,156 @@
 html {
-    padding: 20px 50px;
-  }
-  h2 {
-    font-family: 'Thasadith', sans-serif;
-    font-size: 32px;
-  }
-  .timeline-base {
-    stroke: #444;
-    stroke-width: 0.2;
-  }
-  .circle-category {
-    transition: fill-opacity 0.2s, r 0.5s;
-    -webkit-transition: fill-opacity 0.2s, r 0.5s;
-  }
-  .circle-education,
-  .circle-education ~ .text-position,
-  .details-education .text-position {
-    color: #f6b93b;
-    fill: #f6b93b;
-  }
-  .circle-work,
-  .circle-work ~ .text-position,
-  .details-work .text-position {
-    color: #78e08f;
-    fill: #78e08f;
-  }
-  .circle-hovered {
-    fill-opacity: 0.2;
-  }
-  .circle-clicked {
-    fill: #fff;
-    transition: fill 1s, r 0.9s;
-    -webkit-transition: fill 1s, r 0.9s;
-  }
-  .text-date,
-  .text-position {
-    transition: opacity 0.7s ease-in-out;
-    -webkit-transition: opacity 0.7s ease-in-out;
-  }
-  .text-date {
-    fill: #888;
-    font-family: 'Thasadith', sans-serif;
-  }
-  .details .text-date {
-    margin-right: 15px;
-  }
-  .text-place {
-    font-family: 'Thasadith', sans-serif;
-    font-size: 18px;
-    fill: #888;
-    margin-top: 10px;
-  }
-  .text-place.hovered,
-  .text-desc.hovered,
-  .text-date-end.hovered {
-    transition: opacity 1.5s;
-  }
-  .text-place,
-  .text-desc,
-  .text-date-end {
-    transition: opacity 0.1s;
-  }
-  .position-title {
-    font-size: 25px;
-  }
-  .text-position,
-  .text-desc {
-    font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
-  }
-  .text-desc {
-    color: #444;
-    margin-top: 20px;
-  }
-  .close-icon {
-    color: #ccc;
-    cursor: pointer;
-    float: right;
-    font-size: 38px;
-    display: inline-block;
-    vertical-align: middle;
-  }
-  .title {
-    clear: both;
-    display: inline-block;
-  }
-  .details {
-    transition: opacity 1s ease-in-out;
-  }
-  
-  .tline {
-    padding-top: 200px;
-    height: 300px;
-  }
-  
+  padding: 20px 50px;
+}
+h2 {
+  font-family: "Thasadith", sans-serif;
+  font-size: 32px;
+}
+.timeline-base {
+  stroke: rgb(233, 233, 233);
+  stroke-width: 1.5;
+}
+.circle-state {
+  transition: fill-opacity 0.2s, r 0.5s;
+  -webkit-transition: fill-opacity 0.2s, r 0.5s;
+}
+
+.circle-hovered {
+  fill-opacity: 0.2;
+}
+.circle-clicked {
+  fill: #fff;
+  transition: fill 1s, r 0.9s;
+  -webkit-transition: fill 1s, r 0.9s;
+}
+.text-date,
+.text-position {
+  transition: opacity 0.7s ease-in-out;
+  -webkit-transition: opacity 0.7s ease-in-out;
+}
+.text-date {
+  fill: rgb(172, 172, 172);
+  font-family: "Thasadith", sans-serif;
+}
+.details .text-date {
+  margin-right: 15px;
+}
+.text-place {
+  font-family: "Thasadith", sans-serif;
+  font-size: 18px;
+  fill: rgb(175, 175, 175);
+  margin-top: 10px;
+}
+.text-place.hovered,
+.text-desc.hovered,
+.text-date-end.hovered {
+  transition: opacity 1.5s;
+}
+.text-place,
+.text-desc,
+.text-date-end {
+  transition: opacity 0.1s;
+}
+.position-title {
+  font-size: 25px;
+}
+.text-position,
+.text-desc {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+.text-desc {
+  color: rgb(218, 218, 218);
+  margin-top: 20px;
+}
+.close-icon {
+  color: rgb(173, 173, 173);
+  cursor: pointer;
+  float: right;
+  font-size: 38px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.title {
+  clear: both;
+  display: inline-block;
+}
+.details {
+  transition: opacity 1s ease-in-out;
+}
+
+.tline {
+  height: 80%;
+}
+
+/* categorize by states */
+.circle-al, .circle-al ~ .text-position, .details-al .text-position,
+.circle-ak, .circle-ak ~ .text-position, .details-ak .text-position,
+.circle-az, .circle-az ~ .text-position, .details-az .text-position,
+.circle-ar, .circle-ar ~ .text-position, .details-ar .text-position,
+.circle-ca, .circle-ca ~ .text-position, .details-ca .text-position,
+.circle-co, .circle-co ~ .text-position, .details-co .text-position,
+.circle-ct, .circle-ct ~ .text-position, .details-ct .text-position {
+  color: #F8B195;
+  fill: #F8B195;
+}
+.circle-de, .circle-de ~ .text-position, .details-de .text-position,
+.circle-fl, .circle-fl ~ .text-position, .details-fl .text-position,
+.circle-ga, .circle-ga ~ .text-position, .details-ga .text-position,
+.circle-hi, .circle-hi ~ .text-position, .details-hi .text-position,
+.circle-id, .circle-id ~ .text-position, .details-id .text-position,
+.circle-il, .circle-il ~ .text-position, .details-il .text-position,
+.circle-in, .circle-in ~ .text-position, .details-in .text-position {
+  color: #F67280;
+  fill: #F67280;
+}
+.circle-ia, .circle-ia ~ .text-position, .details-ia .text-position,
+.circle-ks, .circle-ks ~ .text-position, .details-ks .text-position,
+.circle-ky, .circle-ky ~ .text-position, .details-ky .text-position,
+.circle-la, .circle-la ~ .text-position, .details-la .text-position,
+.circle-me, .circle-me ~ .text-position, .details-me .text-position,
+.circle-md, .circle-md ~ .text-position, .details-md .text-position,
+.circle-ma, .circle-ma ~ .text-position, .details-ma .text-position {
+  color: #C06C84;
+  fill: #C06C84;
+}
+.circle-mi, .circle-mi ~ .text-position, .details-mi .text-position,
+.circle-mn, .circle-mn ~ .text-position, .details-mn .text-position,
+.circle-ms, .circle-ms ~ .text-position, .details-ms .text-position,
+.circle-mo, .circle-mo ~ .text-position, .details-mo .text-position,
+.circle-mt, .circle-mt ~ .text-position, .details-mt .text-position,
+.circle-ne, .circle-ne ~ .text-position, .details-ne .text-position,
+.circle-nv, .circle-nv ~ .text-position, .details-nv .text-position {
+  color: #6C5B7B;
+  fill: #6C5B7B;
+}
+.circle-nh, .circle-nh ~ .text-position, .details-nh .text-position,
+.circle-nj, .circle-nj ~ .text-position, .details-nj .text-position,
+.circle-nm, .circle-nm ~ .text-position, .details-nm .text-position,
+.circle-nc, .circle-nc ~ .text-position, .details-nc .text-position,
+.circle-ny, .circle-ny ~ .text-position, .details-ny .text-position,
+.circle-nd, .circle-nd ~ .text-position, .details-nd .text-position,
+.circle-oh, .circle-oh ~ .text-position, .details-oh .text-position {
+  color: #355C7D;
+  fill: #355C7D;
+}
+.circle-ok, .circle-ok ~ .text-position, .details-ok .text-position,
+.circle-or, .circle-or ~ .text-position, .details-or .text-position,
+.circle-pa, .circle-pa ~ .text-position, .details-pa .text-position,
+.circle-ri, .circle-ri ~ .text-position, .details-ri .text-position,
+.circle-sc, .circle-sc ~ .text-position, .details-sc .text-position,
+.circle-sd, .circle-sd ~ .text-position, .details-sd .text-position,
+.circle-tn, .circle-tn ~ .text-position, .details-tn .text-position {
+  color: #45ADA8;
+  fill: #45ADA8;
+}
+.circle-tx, .circle-tx ~ .text-position, .details-tx .text-position,
+.circle-ut, .circle-ut ~ .text-position, .details-ut .text-position,
+.circle-vt, .circle-vt ~ .text-position, .details-vt .text-position,
+.circle-va, .circle-va ~ .text-position, .details-va .text-position,
+.circle-wa, .circle-wa ~ .text-position, .details-wa .text-position,
+.circle-wv, .circle-wv ~ .text-position, .details-wv .text-position,
+.circle-wi, .circle-wi ~ .text-position, .details-wi .text-position,
+.circle-wy, .circle-wy ~ .text-position, .details-wy .text-position {
+  color: #83AF9B;
+  fill: #83AF9B;
+}
