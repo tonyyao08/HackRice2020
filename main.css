@@ -35,6 +35,7 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 100%;
     margin:0;
     padding:0;
+
 }
 q:before,q:after {
     content:'';
@@ -175,9 +176,9 @@ h3{
     text-align: center;
 }
 a:link {
-    color: white;
+    color: #d4d4d4;
     background-color: transparent;
-    text-decoration: none;
+    text-decoration: underline;
   }  
   a:hover {
     color: grey;
@@ -190,9 +191,9 @@ a:link {
     text-decoration: underline;
   }
   a:visited {
-    color: white;
+    color: #6c6381;
     background-color: transparent;
-    text-decoration: none;
+    text-decoration: underline;
   }
   
 #content1{

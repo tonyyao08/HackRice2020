@@ -1,8 +1,6 @@
 
 const data = require('./location-data.json');
 
-
-
 subdata=data.data;
 var count = 0;
 var keys = [];

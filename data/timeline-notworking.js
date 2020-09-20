@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     "#timelineChart",
     "https://raw.githubusercontent.com/tonyyao08/HackRice2020/master/data.json",
     "Chart",
-    1, 1589428800000 /* 2020-05-14 */, Date.now(), "65%"
+    1, 1589428800000 /* 2020-05-14 */, Date.now(), "57.5%"
   );
   drawChart(
     "#timelineChart1",
@@ -24,7 +24,7 @@ function drawChart(selector, file_path, chart_id, line_num, date_start, date_end
   d3.json(file_path).then(function (data) {
     svg
       .append("line")
-      .attr("class", "timeline-base")
+      .attr("class", "timeline-base timeline-base" + line_num)
       .attr("x1", 0)
       .attr("y1", line_h)
       .attr("x2", "100%")
@@ -52,7 +52,7 @@ function drawChart(selector, file_path, chart_id, line_num, date_start, date_end
       });
       return output;
     }
-
+    
     let scaleLine = d3
       .scaleLinear()
       .domain([date_start, date_end])
@@ -75,13 +75,15 @@ function drawChart(selector, file_path, chart_id, line_num, date_start, date_end
       });
 
     group
+
       .append("circle")
       .attr("cx", function (data) {
-        return scaleLine(convertToTimeStamp(data.startDate));
+        return scaleLine(convertToTimeStamp((data.startDate)));
       })
       .attr("cy", line_h)
       .attr("r", function (data) {
-        return Math.random()*30 + 13;
+        // return Math.random()*30 + 13;
+        return 20;
       })
       .attr("fill-opacity", 0.5)
       .attr("class", function (data) {
@@ -92,7 +94,7 @@ function drawChart(selector, file_path, chart_id, line_num, date_start, date_end
       })
       // When hover a circle
       .on("mouseover", function (d, i) {
-        d3.select(this).attr("r", 20);
+        d3.select(this).attr("r", 35);
         d3.select(this).classed("circle-hovered", true);
         d3.select(this.parentNode).selectAll("text").style("opacity", 1)
         d3.select(this.parentNode)
@@ -133,7 +135,8 @@ function drawChart(selector, file_path, chart_id, line_num, date_start, date_end
       })
       // When un-hover a circle
       .on("mouseout", function (d, i) {
-        d3.select(this).attr("r", Math.random()*30 + 13);
+        // d3.select(this).attr("r", Math.random()*20 + 5);
+                d3.select(this).attr("r", 20);
         d3.select(this).classed("circle-hovered", false);
         d3.select(this.parentNode).selectAll("text").style("opacity", 0);
       });
@@ -225,6 +228,11 @@ function drawChart(selector, file_path, chart_id, line_num, date_start, date_end
             return d.description.toString();
           }
         });
+      details
+        .append("div")
+        .attr("class", "text-links")
+        .attr("id", "linksId-" + d.id)
+        .html("<a href='" + d.links[0] + "'>Source</a>");
       // details.append("div").attr("class", "text-links").attr("id", "linksId" + d.id).text(createLinks(d.links));
       details.style("opacity", 0);
     });
@@ -234,7 +242,7 @@ function drawChart(selector, file_path, chart_id, line_num, date_start, date_end
       d3.select(this.parentNode).style("opacity", 0);
       setTimeout(function () {
         svg.attr("height", 500);
-        d3.select(".timeline-base").style("opacity", 1);
+        d3.selectAll(".timeline-base").style("opacity", 1);
         d3.selectAll("circle").classed("circle-clicked", false);
         d3.selectAll("circle").style("opacity", 1);
         d3.selectAll(".details").style("display", "block");

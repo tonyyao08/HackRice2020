@@ -2,7 +2,7 @@ html {
   padding: 20px 50px;
 }
 h2 {
-  font-family: "Thasadith", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 32px;
 }
 .timeline-base {
@@ -33,28 +33,24 @@ h2 {
 .text-date {
   color: white;
   fill: white;
-  font-family: "Thasadith", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-/* .text-date.circle-hovered {
+/* .text-date-hovered {
   color: red;
   fill: red;
-  font-family: "Thasadith", sans-serif;
+  font-family: "Roboto", sans-serif;
 } */
 .details .text-date {
   margin-right: 15px;
 }
 .text-place {
-  font-family: "Thasadith", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 2em;
   fill: white;
   margin-top: 10px;
 }
-.text-place.hovered{
-  color: red;
-}
-
+.text-place.hovered,
 .text-desc.hovered,
-
 .text-date-end.hovered {
   transition: opacity 1.5s;
 }
@@ -74,10 +70,22 @@ h2 {
 .text-desc {
   color: white;
   margin-top: 20px;
-  padding-left: 13%;
-  padding-right: 13%;
+  padding-left: 15%;
+  padding-right: 15%;
   font-size: 2em;
 }
+
+.text-links {
+  color: #999999;
+  font-size: 2em;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+
+
+
+
 .close-icon {
   color: white;
   cursor: pointer;
@@ -95,12 +103,11 @@ h2 {
 }
 
 .place-name.text-place.hovered {
-  color: #DDDDDD;
+  color: #dddddd;
 }
 
 .tline {
   height: 90%;
-  vertical-align: baseline;
 }
 
 /* categorize by states */
@@ -111,8 +118,8 @@ h2 {
 .circle-ca, .circle-ca ~ .text-position, .details-ca .text-position,
 .circle-co, .circle-co ~ .text-position, .details-co .text-position,
 .circle-ct, .circle-ct ~ .text-position, .details-ct .text-position {
-  color: #F8B195;
-  fill: #F8B195;
+  color: #5b9aa0;
+  fill:  #5b9aa0;
 }
 .circle-de, .circle-de ~ .text-position, .details-de .text-position,
 .circle-fl, .circle-fl ~ .text-position, .details-fl .text-position,
@@ -121,8 +128,8 @@ h2 {
 .circle-id, .circle-id ~ .text-position, .details-id .text-position,
 .circle-il, .circle-il ~ .text-position, .details-il .text-position,
 .circle-in, .circle-in ~ .text-position, .details-in .text-position {
-  color: #F67280;
-  fill: #F67280;
+  color: #c83349;
+  fill: #c83349;
 }
 .circle-ia, .circle-ia ~ .text-position, .details-ia .text-position,
 .circle-ks, .circle-ks ~ .text-position, .details-ks .text-position,
@@ -131,8 +138,8 @@ h2 {
 .circle-me, .circle-me ~ .text-position, .details-me .text-position,
 .circle-md, .circle-md ~ .text-position, .details-md .text-position,
 .circle-ma, .circle-ma ~ .text-position, .details-ma .text-position {
-  color: #C06C84;
-  fill: #C06C84;
+  color: #e06377;
+  fill: #e06377;
 }
 .circle-mi, .circle-mi ~ .text-position, .details-mi .text-position,
 .circle-mn, .circle-mn ~ .text-position, .details-mn .text-position,
@@ -141,9 +148,10 @@ h2 {
 .circle-mt, .circle-mt ~ .text-position, .details-mt .text-position,
 .circle-ne, .circle-ne ~ .text-position, .details-ne .text-position,
 .circle-nv, .circle-nv ~ .text-position, .details-nv .text-position {
-  color: #6C5B7B;
-  fill: #6C5B7B;
+  color: #eeac99;
+  fill: #eeac99;
 }
+
 .circle-nh, .circle-nh ~ .text-position, .details-nh .text-position,
 .circle-nj, .circle-nj ~ .text-position, .details-nj .text-position,
 .circle-nm, .circle-nm ~ .text-position, .details-nm .text-position,
@@ -151,9 +159,11 @@ h2 {
 .circle-ny, .circle-ny ~ .text-position, .details-ny .text-position,
 .circle-nd, .circle-nd ~ .text-position, .details-nd .text-position,
 .circle-oh, .circle-oh ~ .text-position, .details-oh .text-position {
-  color: #355C7D;
-  fill: #355C7D;
+  color: #e59d9d;
+  fill: #e59d9d;
 }
+
+.circle-ok, .circle-ok ~ .text-position, .details-ok .text-position,
 .circle-ok, .circle-ok ~ .text-position, .details-ok .text-position,
 .circle-or, .circle-or ~ .text-position, .details-or .text-position,
 .circle-pa, .circle-pa ~ .text-position, .details-pa .text-position,
@@ -172,6 +182,6 @@ h2 {
 .circle-wv, .circle-wv ~ .text-position, .details-wv .text-position,
 .circle-wi, .circle-wi ~ .text-position, .details-wi .text-position,
 .circle-wy, .circle-wy ~ .text-position, .details-wy .text-position {
-  color: #83AF9B;
-  fill: #83AF9B;
+  color: #622569;
+  fill: #622569;
 }
