@@ -3,13 +3,13 @@ document.addEventListener("DOMContentLoaded", function () {
     "#timelineChart",
     "https://raw.githubusercontent.com/tonyyao08/HackRice2020/master/data.json",
     "Chart",
-    1, 1589428800000 /* 2020-05-14 */, Date.now(), "50%"
+    1, 1589428800000 /* 2020-05-14 */, Date.now(), "65%"
   );
   drawChart(
     "#timelineChart1",
     "https://raw.githubusercontent.com/pearl6527/something-timelines/master/TIMELINES/assets/testfile.json",
     "Chart1",
-    2, 1589428800000 /* 2020-05-14 */, Date.now(), "50%"
+    2, 1589428800000 /* 2020-05-14 */, Date.now(), "65%"
   );
 });
 
@@ -19,7 +19,7 @@ function drawChart(selector, file_path, chart_id, line_num, date_start, date_end
     .append("svg")
     .attr("id", chart_id)
     .attr("width", "100%")
-    .attr("height", 300);
+    .attr("height", 500);
 
   d3.json(file_path).then(function (data) {
     svg
@@ -47,10 +47,9 @@ function drawChart(selector, file_path, chart_id, line_num, date_start, date_end
     }
 
     function createLinks(arr) {
-      var output = "";
-      for (i in arr) {
-        output += i + "\n";
-      }
+      var output = arr.each(function(index, item) {
+        ul.append($(document.createElement('li')).text(item));
+      });
       return output;
     }
 
@@ -82,7 +81,7 @@ function drawChart(selector, file_path, chart_id, line_num, date_start, date_end
       })
       .attr("cy", line_h)
       .attr("r", function (data) {
-        return Math.random()*20 + 10;
+        return Math.random()*30 + 13;
       })
       .attr("fill-opacity", 0.5)
       .attr("class", function (data) {
@@ -95,7 +94,7 @@ function drawChart(selector, file_path, chart_id, line_num, date_start, date_end
       .on("mouseover", function (d, i) {
         d3.select(this).attr("r", 20);
         d3.select(this).classed("circle-hovered", true);
-        d3.select(this.parentNode).selectAll("text").style("opacity", 1);
+        d3.select(this.parentNode).selectAll("text").style("opacity", 1)
         d3.select(this.parentNode)
           .selectAll(".text-place")
           .classed("hovered", true)
@@ -134,7 +133,7 @@ function drawChart(selector, file_path, chart_id, line_num, date_start, date_end
       })
       // When un-hover a circle
       .on("mouseout", function (d, i) {
-        d3.select(this).attr("r", Math.random()*20 + 10);
+        d3.select(this).attr("r", Math.random()*30 + 13);
         d3.select(this).classed("circle-hovered", false);
         d3.select(this.parentNode).selectAll("text").style("opacity", 0);
       });
@@ -143,7 +142,7 @@ function drawChart(selector, file_path, chart_id, line_num, date_start, date_end
       .append("text")
       .style("opacity", 0)
       .text(function (data) {
-        return data.name + "[SHOULD HAVE NAME]";
+        return data.name;
       })
       .attr("x", function (data) {
         let elementWitdh = this.getBoundingClientRect().width;
@@ -226,6 +225,7 @@ function drawChart(selector, file_path, chart_id, line_num, date_start, date_end
             return d.description.toString();
           }
         });
+      // details.append("div").attr("class", "text-links").attr("id", "linksId" + d.id).text(createLinks(d.links));
       details.style("opacity", 0);
     });
 

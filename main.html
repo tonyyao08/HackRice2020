@@ -20,7 +20,12 @@
             <div id= "content1">
                 <h3 style= "font-size: 144px"> Black Lives Matter</h3>
                 <h2 style= "font-size: 48px"> Take a trip into the history of the BLM movement... </h2>
-                <p id= "firstpagearrow"><i class="arrowDown"></i></p>
+                <br><br><br>
+                <p id= "firstpagearrow">
+                    <input type="image" src="https://i.ibb.co/gF7SBTJ/Group-3.png" onclick="fullpage_api.moveSectionDown();"/>
+                    <!-- <image v-on: click="fullpage_api.moveSectionDown();"><i class="arrowDown"></i></button> -->
+                    <!-- <button v-on:click="fullpage_api.moveSectionDown();"><i class="arrowDown"></i></button> -->
+                </p>
             </div>
             
         </div>
@@ -40,17 +45,18 @@
                 </div>
             </div>
             <div class="slide">
+                
+                <h3 class="fix-year">2020</h3>
                 <div class='tline'>
-                    <h3>2020</h3>
-                    <p style="color: #FFF">here is some text</p>
-                    <div id='timelineChart' class='tline'></div>
+                    <!-- <h3>2020</h3> -->
+                    <div id='timelineChart'></div>
                 </div>
+            
             </div>
             <div class="slide">
                 <div class='tline'>
                     <h3>Before</h3>
-                    <p>here is some text</p>
-                    <div id='timelineChart1' class='tline'></div>
+                    <div id='timelineChart1'></div>
                 </div>
             </div>
         </div>
@@ -61,7 +67,7 @@
                 past and present. Our goal is to allow anyone to easily educate themselves about this
                 movement, as well as to visually represent all of the major events in a timeline.<br><br>
                 </p>
-                <p style ="font-size: 50px"> We hope that this information will help contribute to the changes we are all
+                <p style ="font-size: 30px"> We hope that this information will help contribute to the changes we are all
                 fighting for.
                 </p>
     

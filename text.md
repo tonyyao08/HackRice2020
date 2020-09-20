@@ -11,7 +11,15 @@
     },
 
     
-
+    {
+        "id": 28,
+        "name": "Law enforcement officer punches pinned protester",
+        "startDate": "2020-07-23",
+        "state": "WA",
+        "placeName": "Seattle",
+        "description": "In this video, officers wrestle with two protesters on the floor. One officer punches the protester he has pinned at 0:15.",
+        "links": ["https://twitter.com/The_Stepover/status/1267236742278463488", "https://twitter.com/eavu__/status/1267260549814870016"]
+    },
 
 
 

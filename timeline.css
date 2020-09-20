@@ -6,7 +6,7 @@ h2 {
   font-size: 32px;
 }
 .timeline-base {
-  stroke: rgb(233, 233, 233);
+  stroke: white;
   stroke-width: 1.5;
 }
 .circle-state {
@@ -18,30 +18,43 @@ h2 {
   fill-opacity: 0.2;
 }
 .circle-clicked {
-  fill: #fff;
+  fill: white;
   transition: fill 1s, r 0.9s;
   -webkit-transition: fill 1s, r 0.9s;
 }
 .text-date,
 .text-position {
+  /* CHANGED */
+  color: white;
+  font-size: 1.8em;
   transition: opacity 0.7s ease-in-out;
   -webkit-transition: opacity 0.7s ease-in-out;
 }
 .text-date {
-  fill: rgb(172, 172, 172);
+  color: white;
+  fill: white;
   font-family: "Thasadith", sans-serif;
 }
+/* .text-date.circle-hovered {
+  color: red;
+  fill: red;
+  font-family: "Thasadith", sans-serif;
+} */
 .details .text-date {
   margin-right: 15px;
 }
 .text-place {
   font-family: "Thasadith", sans-serif;
-  font-size: 18px;
-  fill: rgb(175, 175, 175);
+  font-size: 2em;
+  fill: white;
   margin-top: 10px;
 }
-.text-place.hovered,
+.text-place.hovered{
+  color: red;
+}
+
 .text-desc.hovered,
+
 .text-date-end.hovered {
   transition: opacity 1.5s;
 }
@@ -51,7 +64,7 @@ h2 {
   transition: opacity 0.1s;
 }
 .position-title {
-  font-size: 25px;
+  font-size: 2.5em;
 }
 .text-position,
 .text-desc {
@@ -59,11 +72,14 @@ h2 {
   font-weight: lighter;
 }
 .text-desc {
-  color: rgb(218, 218, 218);
+  color: white;
   margin-top: 20px;
+  padding-left: 13%;
+  padding-right: 13%;
+  font-size: 2em;
 }
 .close-icon {
-  color: rgb(173, 173, 173);
+  color: white;
   cursor: pointer;
   float: right;
   font-size: 38px;
@@ -78,8 +94,13 @@ h2 {
   transition: opacity 1s ease-in-out;
 }
 
+.place-name.text-place.hovered {
+  color: #DDDDDD;
+}
+
 .tline {
-  height: 80%;
+  height: 90%;
+  vertical-align: baseline;
 }
 
 /* categorize by states */
