@@ -6,7 +6,7 @@
         "state": "FL",
         "placeName": "Sanford",
         "description": "On the night of February 26, 2012, in Sanford, Florida, United States, George Zimmerman fatally shot Trayvon Martin, a 17-year-old African-American high school student. Zimmerman was the neighborhood watch coordinator for his gated community where Martin was visiting his relatives at the time of the shooting.Zimmerman shot Martin, who was unarmed, during a physical altercation between the two. Zimmerman, injured during the encounter, claimed self-defense in the confrontation.",
-        "links": "https://en.wikipedia.org/wiki/Shooting_of_Trayvon_Martin"
+        "links": ["https://en.wikipedia.org/wiki/Shooting_of_Trayvon_Martin"]
     },
     {
         "id": 51,
@@ -15,7 +15,7 @@
         "state": "MI",
         "placeName": "Dearborn Heights",
         "description": "The murder of Renisha McBride, a 19-year-old black woman, occurred on November 2, 2013, in Dearborn Heights, Michigan, United States. Renisha McBride crashed her car while intoxicated at a street in Detroit, and then walked to a neighborhood in Dearborn Heights where she knocked on the door of a house. The homeowner, Theodore Wafer, shot McBride with a shotgun. ",
-        "links": "https://en.wikipedia.org/wiki/Murder_of_Renisha_McBride"
+        "links": ["https://en.wikipedia.org/wiki/Murder_of_Renisha_McBride"]
     },
     {
         "id": 52,
@@ -24,7 +24,7 @@
         "state": "NY",
         "placeName": "Staten Island",
         "description": "On July 17, 2014, Eric Garner died in the New York City borough of Staten Island after Daniel Pantaleo, a New York City Police Department (NYPD) officer, put him in a prohibited chokehold while arresting him.",
-        "links": "https://en.wikipedia.org/wiki/Killing_of_Eric_Garner"
+        "links": ["https://en.wikipedia.org/wiki/Killing_of_Eric_Garner"]
     },
     
     {
@@ -34,7 +34,7 @@
         "state": "MO",
         "placeName": "Ferguson",
         "description": "On August 9, 2014, Michael Brown Jr., an 18-year-old black man, was fatally shot by 28-year-old white Ferguson police officer Darren Wilson in the city of Ferguson, Missouri, a suburb of St. Louis. Brown was accompanied by his 22-year-old friend Dorian Johnson. Wilson said that an altercation ensued when Brown attacked Wilson in his police vehicle for control of Wilson's gun until it was fired.Johnson claimed that Wilson initiated a confrontation by grabbing Brown by the neck through his car window, threatening him and then shooting at him.At this point, both Wilson and Johnson state that Brown and Johnson fled, with Wilson pursuing Brown shortly thereafter. Wilson stated that Brown stopped and charged him after a short pursuit. Johnson contradicted this account, stating that Brown turned around with his hands raised after Wilson shot at his back. According to Johnson, Wilson then shot Brown multiple times until Brown fell to the ground. In the entire altercation, Wilson fired a total of twelve bullets, including twice during the struggle in the car. Brown was struck six times, all in the front of his body.",
-        "links": "https://en.wikipedia.org/wiki/Shooting_of_Michael_Brown"
+        "links": ["https://en.wikipedia.org/wiki/Shooting_of_Michael_Brown"]
     },
     {
         "id": 56,
@@ -43,7 +43,7 @@
         "state": "OH",
         "placeName": "Cleveland",
         "description": "On November 22, 2014, Tamir Rice, a 12-year old African-American boy, was killed in Cleveland, Ohio, by Timothy Loehmann, a 26-year-old white police officer. Rice was carrying a replica toy gun; Loehmann shot him almost immediately after arriving on the scene.",
-        "links": "https://en.wikipedia.org/wiki/Shooting_of_Tamir_Rice"
+        "links": ["https://en.wikipedia.org/wiki/Shooting_of_Tamir_Rice"]
     },    
     {
         "id": 56,
@@ -52,7 +52,7 @@
         "state": "MD",
         "placeName": "Baltimore",
         "description": "On April 12, 2015, Freddie Carlos Gray Jr., a 25-year-old African-American, was arrested by the Baltimore Police Department and subsequently charged for possessing a knife.[2] While being transported in a police van, Gray sustained spinal cord injuries and died on April 19, 2015.",
-        "links": "https://en.wikipedia.org/wiki/Death_of_Freddie_Gray"
+        "links": ["https://en.wikipedia.org/wiki/Death_of_Freddie_Gray"]
     },
 
     {
@@ -62,7 +62,7 @@
         "state": "MN",
         "placeName": "Minneapolis",
         "description": "On November 15, 2015, Jamar Clark, a 24-year-old African-American man, was shot by Minneapolis Police in Minneapolis, Minnesota. Two police officers, Mark Ringgenberg and Dustin Schwarze, were involved in the shooting and were subsequently placed on paid administrative leave. The night after the shooting, Clark died at the Hennepin County Medical Center after being taken off life support.",
-        "links": "https://en.wikipedia.org/wiki/Shooting_of_Jamar_Clark"
+        "links": ["https://en.wikipedia.org/wiki/Shooting_of_Jamar_Clark"]
     },
     
     {
@@ -72,7 +72,7 @@
         "state": "LA",
         "placeName": "Baton Rogue",
         "description": "On July 5, 2016, Alton Sterling, a 37-year-old black man, was shot dead at close range by two Baton Rouge Police Department officers in Baton Rouge, Louisiana. The officers were attempting to control Sterling's arms, and Sterling was shot by them while allegedly reaching for the loaded handgun in his pants pocket. Police were responding to a report that a man in a red shirt was selling CDs and that he had used a gun to threaten a man outside a convenience store. The owner of the store where the shooting occurred said that Sterling had started carrying a gun a few days prior to the event as other CD vendors had been robbed recently. He also said that Sterling was 'not the one causing trouble' during the situation that led to the police being called.",
-        "links": "https://en.wikipedia.org/wiki/Shooting_of_Alton_Sterling"
+        "links": ["https://en.wikipedia.org/wiki/Shooting_of_Alton_Sterling"]
     },
     {
         "id": 59,
@@ -81,7 +81,7 @@
         "state": "FL",
         "placeName": "Miami",
         "description": "On July 18, 2016, Charles Kinsey, a mental health therapist, was shot in the leg by a police officer in North Miami, Florida. Kinsey had been retrieving his 27-year-old severely autistic patient, Arnaldo Rios Soto, who had run away from his group home. Police encountered the pair while they were searching for an armed suicidal man. Kinsey was lying on the ground with his hands in the air, and trying to negotiate between officers and his patient, when he was shot. The officer who shot Kinsey said he had been aiming at the patient, who the officer believed was threatening Kinsey with a gun.",
-        "links": "https://en.wikipedia.org/wiki/Shooting_of_Charles_Kinsey"
+        "links": ["https://en.wikipedia.org/wiki/Shooting_of_Charles_Kinsey"]
     },
 
     {
@@ -91,7 +91,7 @@
         "state": "OK",
         "placeName": "Edmond",
         "description": "The Oklahoma County District Attorney's office has cleared two Edmond officers of wrongdoing in the deadly shooting of the unarmed 17 year-year-old black teenager, Isaiah Lewis.",
-        "links": "https://okcfox.com/news/local/officer-who-killed-isaiah-lewis-will-not-be-charged"
+        "links": ["https://okcfox.com/news/local/officer-who-killed-isaiah-lewis-will-not-be-charged"]
     },
 
     {
@@ -101,6 +101,6 @@
         "state": "KY",
         "placeName": "Louisville",
         "description": "Breonna Taylor, a 26-year-old African-American, was fatally shot by Police officers on March 13, 2020. Three plainclothes officers entered her apartment, executing a no-knock search warrant. Walker and the officers exchanged gunfire. Walker has said that he believed the officers were intruders. The officers fired over 20 shots. Taylor was shot eight times.",
-        "links": "https://en.wikipedia.org/wiki/Shooting_of_Breonna_Taylor"
+        "links": ["https://en.wikipedia.org/wiki/Shooting_of_Breonna_Taylor"]
     }
 ]
